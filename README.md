@@ -16,6 +16,11 @@
 
 利用 Vue.js 实现 [objc中国](https://objccn.io/) 的跨平台全栈应用
 
+- [x] 桌面应用，支持 Mac、Linux、Windows 三个平台
+- [x] Web 应用，支持 桌面浏览器 和 手机浏览器
+- [x] 手机 App，目前只支持了 Cordova 框架
+- [ ] 手机原生 App，打算用 Weex 框架
+
 
 ## Build Setup
 
