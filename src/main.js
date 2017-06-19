@@ -10,9 +10,7 @@ import * as uiv from 'uiv'
 import hljs from 'highlight.js'
 import VeeValidate from 'vee-validate'
 import cordova from './mobile-index'
-// import BootstrapVue from 'bootstrap-vue'
 
-// Vue.use(BootstrapVue)
 Vue.use(uiv)
 Vue.use(ElementUI)
 Vue.use(hljs)
