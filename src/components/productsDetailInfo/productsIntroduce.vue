@@ -13,7 +13,7 @@ export default {
     'product-subtitle',
     'product-text'
   ]
-}
+};
 </script>
 
 <style>

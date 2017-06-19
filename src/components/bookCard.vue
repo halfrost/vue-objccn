@@ -21,7 +21,7 @@
 </template>
 
 <script>
-import router from '@/router'
+import router from '@/router';
 
 export default {
   props: [
@@ -31,10 +31,10 @@ export default {
   ],
   methods: {
     goGoodsCart() {
-      this.$store.state.user.isLogin ? router.push('/goodscart') : router.push('/login')
+      this.$store.state.user.isLogin ? router.push('/goodscart') : router.push('/login');
     }
   }
-}
+};
 </script>
 
 <style>

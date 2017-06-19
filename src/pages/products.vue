@@ -3,33 +3,25 @@
   <div class="products-content">
     <keep-alive>
       <transition name="slide-right">
-      <router-view></router-view>
-    </transition>
+        <router-view></router-view>
+      </transition>
     </keep-alive>
   </div>
 </div>
 </template>
 
 <script>
-import productsDetailInfo from './productsDetailInfo'
-import productsHome from './productsHome'
-import productsPreview from './productsPreview'
+import productsDetailInfo from './productsDetailInfo';
+import productsHome from './productsHome';
+import productsPreview from './productsPreview';
 
 export default {
   components: {
     productsDetailInfo,
     productsHome,
     productsPreview
-  },
-  created() {
-  },
-  data() {
-    return {
-    }
-  },
-  methods: {
   }
-}
+};
 </script>
 
 <style>

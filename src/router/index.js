@@ -1,15 +1,15 @@
-import Vue from 'vue'
-import Router from 'vue-router'
-import HomePage from '@/pages/homePage'
-import Issues from '@/pages/issues'
-import IssuesDetail from '@/pages/issuesDetail'
-import Products from '@/pages/products'
-import ProductsHome from '@/pages/productsHome'
-import GoodsCart from '@/pages/goodsCart'
-import Login from '@/pages/login'
-import ProductsDetailInfo from '@/pages/productsDetailInfo'
-import ProductsPreview from '@/pages/productsPreview'
-Vue.use(Router)
+import Vue from 'vue';
+import Router from 'vue-router';
+import HomePage from '@/pages/homePage';
+import Issues from '@/pages/issues';
+import IssuesDetail from '@/pages/issuesDetail';
+import Products from '@/pages/products';
+import ProductsHome from '@/pages/productsHome';
+import GoodsCart from '@/pages/goodsCart';
+import Login from '@/pages/login';
+import ProductsDetailInfo from '@/pages/productsDetailInfo';
+import ProductsPreview from '@/pages/productsPreview';
+Vue.use(Router);
 
 export default new Router({
   mode: 'history',
@@ -29,7 +29,6 @@ export default new Router({
   },
   {
     path: '/products',
-    // name: 'Products',
     component: Products,
     // redirect: '/products',
     children: [{
@@ -80,6 +79,5 @@ export default new Router({
     name: 'Login',
     component: Login
   }
-
   ]
-})
+});

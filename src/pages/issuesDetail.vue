@@ -42,11 +42,11 @@
 </template>
 
 <script>
-import VueMarkdown from 'vue-markdown'
-import axios from 'axios'
-import hljs from 'highlight.js'
+import VueMarkdown from 'vue-markdown';
+import axios from 'axios';
+import hljs from 'highlight.js';
 
-hljs.initHighlightingOnLoad()
+hljs.initHighlightingOnLoad();
 
 export default {
   data() {
@@ -67,7 +67,7 @@ export default {
       chapter: 0,
       section: 0,
       articleContent: ''
-    }
+    };
   },
   props: [],
   components: {
@@ -76,77 +76,69 @@ export default {
   computed: {
     selectAuthorInfo() {
       if (this.issuesDetail.authorInfo === undefined) {
-        return this.authorInfo
+        return this.authorInfo;
       } else {
-        return this.issuesDetail.authorInfo
+        return this.issuesDetail.authorInfo;
       }
     }
   },
   methods: {
     reloadData() {
-      this.issuesDetail = this.issuesListInfo[this.chapter - 1].issue_content_list[this.section]
+      this.issuesDetail = this.issuesListInfo[this.chapter - 1].issue_content_list[this.section];
     },
     fetchData() {
       axios.post('http://localhost:8080/api/getIssuesListInfo')
         .then((response) => {
-          var array = this.$route.params['issuesNum'].split('-')
-          this.chapter = array[1]
-          this.section = array[2]
-          this.getArticleContentURL()
-          console.log('@@@@@@@@@', this.chapter, this.section)
-          this.issuesListInfo = response.data
+          var array = this.$route.params['issuesNum'].split('-');
+          this.chapter = array[1];
+          this.section = array[2];
+          this.getArticleContentURL();
+          this.issuesListInfo = response.data;
 
           if (this.chapter <= this.issuesListInfo.length && this.section < this.issuesListInfo[this.chapter - 1].issue_content_list.length) {
-            this.issuesDetail = this.issuesListInfo[this.chapter - 1].issue_content_list[this.section]
-            console.log('****', this.issuesDetail)
+            this.issuesDetail = this.issuesListInfo[this.chapter - 1].issue_content_list[this.section];
           }
         })
         .catch((error) => {
-          console.log('issuesDetail 页面出错了', error)
-        })
+          console.log('issuesDetail 页面出错了', error);
+        });
     },
     fetchArticleContent() {
-      console.log(this.getArticleContentURL())
-
       axios.get(this.getArticleContentURL())
         .then((response) => {
-          console.log('yyyyyyyyyyyyy', response)
-          this.articleContent = response.data
-          // item.raw = response.data
-          // item.content = md.render(item.raw)
-          // this.item = item
+          this.articleContent = response.data;
         })
         .catch((error) => {
-          this.issuesDetail.issue_date = ''
-          this.authorInfo.authorName = ''
-          this.articleContent = '这篇文章不见了'
-          console.log('issuesDetail 请求md出错了', error)
-        })
+          this.issuesDetail.issue_date = '';
+          this.authorInfo.authorName = '';
+          this.articleContent = '这篇文章不见了';
+          console.log('issuesDetail 请求md出错了', error);
+        });
     },
     getArticleContentURL() {
-      let array = this.$route.params['issuesNum'].split('-')
-      let chapterIndex = array[1]
-      return 'https://raw.githubusercontent.com/halfrost/articles/master/publish/issue' + chapterIndex + '/' + this.$route.params['issuesNum'] + '.md'
+      let array = this.$route.params['issuesNum'].split('-');
+      let chapterIndex = array[1];
+      return 'https://raw.githubusercontent.com/halfrost/articles/master/publish/issue' + chapterIndex + '/' + this.$route.params['issuesNum'] + '.md';
     }
   },
   created() {
     // created 里面只执行一次，所以这里负责拉去所有文章基本信息
-    this.fetchData()
-    this.fetchArticleContent()
+    this.fetchData();
+    this.fetchArticleContent();
   },
   watch: {
     $route() {
       if (typeof (this.$route.params['issuesNum']) === 'string') {
-        var array = this.$route.params['issuesNum'].split('-')
-        this.chapter = array[1]
-        this.section = array[2]
-        this.reloadData()
+        var array = this.$route.params['issuesNum'].split('-');
+        this.chapter = array[1];
+        this.section = array[2];
+        this.reloadData();
         // 由于每篇文章的详细信息都需要重新拉取，所以每次这里都要请求一次
-        this.fetchArticleContent()
+        this.fetchArticleContent();
       }
     }
   }
-}
+};
 </script>
 
 <style>

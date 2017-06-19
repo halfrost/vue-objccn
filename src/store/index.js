@@ -1,14 +1,16 @@
-import Vue from 'vue'
-import Vuex from 'vuex'
-import lowdb from 'lowdb'
+import Vue from 'vue';
+import Vuex from 'vuex';
+import lowdb from 'lowdb';
 
-Vue.use(Vuex)
+Vue.use(Vuex);
 
-const db = lowdb('db')
+const db = lowdb('db');
 
-const user = {}
+const user = {};
 
-db.defaults({ user }).write()
+db.defaults({
+  user
+}).write();
 
 export default new Vuex.Store({
   state: {
@@ -16,23 +18,22 @@ export default new Vuex.Store({
   },
   actions: {
     loadUser(context) {
-      const user = db.get('user').value()
-      context.commit('setUser', user)
-      return Promise.resolve()
+      const user = db.get('user').value();
+      context.commit('setUser', user);
     }
   },
   mutations: {
     setUser(state, user) {
-      state.user = user
+      state.user = user;
     },
     userLogin(state, user) {
-      state.user = user
-      db.set('user.email', user.email).write()
-      db.set('user.isLogin', true).write()
+      state.user = user;
+      db.set('user.email', user.email).write();
+      db.set('user.isLogin', true).write();
     },
     userLogout(state) {
-      state.user.isLogin = false
-      db.set('user.isLogin', false).write()
+      state.user.isLogin = false;
+      db.set('user.isLogin', false).write();
     }
   }
-})
+});

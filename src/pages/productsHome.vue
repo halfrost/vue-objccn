@@ -2,10 +2,12 @@
 <div class="book-content">
   <div id="__wrapper">
     <main class="container">
-      <p class="dim text-center page-header" v-show="!this.$store.state.user.isLogin">已经购买，需要重新下载？点击<router-link to="/login/">登录</router-link></p>
+      <p class="dim text-center page-header" v-show="!this.$store.state.user.isLogin">已经购买，需要重新下载？点击
+        <router-link to="/login/">登录</router-link>
+      </p>
       <p class="dim text-center page-header" v-show="this.$store.state.user.isLogin">欢迎您 {{ this.$store.state.user.email}}，您可以下载已购内容或进行新的购买</p>
-      <div class="row" >
-          <book-card v-for="item in bookInfo" :key="item.id" :book-cover-image=item.bookCoverImage :book-price="item.bookPrice" :book-detail-info=item.bookDetailInfo></book-card>
+      <div class="row">
+        <book-card v-for="item in bookInfo" :key="item.id" :book-cover-image=item.bookCoverImage :book-price="item.bookPrice" :book-detail-info=item.bookDetailInfo></book-card>
       </div>
     </main>
   </div>
@@ -13,12 +15,12 @@
 </template>
 
 <script>
-import BookCard from '@/components/bookCard'
+import BookCard from '@/components/bookCard';
 export default {
   components: {
     BookCard
   },
-  data () {
+  data() {
     return {
       bookInfo: [{
         bookCoverImage: require('../assets/swifter-tips-cover.png'),
@@ -39,10 +41,11 @@ export default {
         bookCoverImage: require('../assets/advanced-swift-cover.png'),
         bookPrice: '69.00',
         bookDetailInfo: '/products/advanced-swift'
-      }]
-    }
+      }
+      ]
+    };
   }
-}
+};
 </script>
 
 <style scoped>

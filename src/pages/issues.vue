@@ -15,18 +15,18 @@
 </template>
 
 <script>
-import IssuesList from '@/components/issuesList'
-import axios from 'axios'
+import IssuesList from '@/components/issuesList';
+import axios from 'axios';
 
 export default {
   created() {
     axios.post('http://localhost:8080/api/getIssuesListInfo')
       .then((response) => {
-        this.issuesListInfo = response.data
+        this.issuesListInfo = response.data;
       })
       .catch((error) => {
-        console.log('issues 页面出错了', error)
-      })
+        console.log('issues 页面出错了', error);
+      });
   },
   components: {
     IssuesList
@@ -34,9 +34,9 @@ export default {
   data() {
     return {
       issuesListInfo: []
-    }
+    };
   }
-}
+};
 </script>
 
 <style>

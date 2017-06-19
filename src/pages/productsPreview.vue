@@ -33,41 +33,40 @@
 </template>
 
 <script>
-import router from '@/router'
-import axios from 'axios'
-import hljs from 'highlight.js'
+import router from '@/router';
+import axios from 'axios';
+import hljs from 'highlight.js';
 
-hljs.initHighlightingOnLoad()
+hljs.initHighlightingOnLoad();
 
 export default {
-  props: [],
   created() {
-    this.fetchArticleContent()
+    this.fetchArticleContent();
   },
   methods: {
     goback() {
-      router.go(-1)
+      router.go(-1);
     },
     resolve(url) {
       if (url.substr(url.length - 1, 1) === '/') {
-        return url.substring(0, url.length - 1)
+        return url.substring(0, url.length - 1);
       } else {
-        return url
+        return url;
       }
     },
     fetchArticleContent() {
       axios.get(this.getArticleContentURL())
         .then((response) => {
-          this.articleContent = response.data
+          this.articleContent = response.data;
         })
         .catch((error) => {
-          this.articleContent = '这篇文章不见了'
-          console.log('productsPreview 请求md出错了', error)
-        })
+          this.articleContent = '这篇文章不见了';
+          console.log('productsPreview 请求md出错了', error);
+        });
     },
     getArticleContentURL() {
-      let array = this.$route.path.split('/')
-      return 'https://raw.githubusercontent.com/halfrost/articles/master/' + array[2] + '-summary' + '.md'
+      let array = this.$route.path.split('/');
+      return 'https://raw.githubusercontent.com/halfrost/articles/master/' + array[2] + '-summary' + '.md';
     }
   },
   data() {
@@ -99,9 +98,9 @@ export default {
           'translatorList': '王巍 译'
         }
       }
-    }
+    };
   }
-}
+};
 </script>
 
 <style>

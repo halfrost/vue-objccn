@@ -53,25 +53,21 @@
 </template>
 
 <script>
-
 export default {
-  props: [],
   data() {
     return {
       showNavbar: false
-    }
+    };
   },
   methods: {
     logout() {
-      this.$store.commit('userLogout')
+      this.$store.commit('userLogout');
     },
     getUserLoginState() {
-      return this.$store.state.user.isLogin
+      return this.$store.state.user.isLogin;
     }
-  },
-  created() {
   }
-}
+};
 </script>
 
 <style >

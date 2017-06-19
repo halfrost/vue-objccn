@@ -7,8 +7,8 @@
   <div class="app-content">
     <keep-alive>
       <transition name="drop">
-      <router-view></router-view>
-    </transition>
+        <router-view></router-view>
+      </transition>
     </keep-alive>
   </div>
 
@@ -19,9 +19,9 @@
 </template>
 
 <script>
-import navgationBar from './navigationBar'
-import bookCard from './bookCard'
-import footerView from './footerView'
+import navgationBar from './navigationBar';
+import bookCard from './bookCard';
+import footerView from './footerView';
 
 export default {
   components: {
@@ -30,35 +30,9 @@ export default {
     footerView
   },
   created() {
-    this.$store.dispatch('loadUser')
-  },
-  data() {
-    return {
-      isShowAboutDialog: false,
-      isShowLogDialog: false,
-      isShowRegDialog: false,
-      username: '',
-      activeClass: 'navbar-item-select'
-    }
-  },
-  methods: {
-    aboutClick() {
-      this.isShowAboutDialog = true
-    },
-    logClick() {
-      this.isShowLogDialog = true
-    },
-    regClick() {
-      this.isShowRegDialog = true
-    },
-    closeDialog(attr) {
-      this[attr] = false
-    },
-    onSuccessLog(data) {
-
-    }
+    this.$store.dispatch('loadUser');
   }
-}
+};
 </script>
 
 <style>

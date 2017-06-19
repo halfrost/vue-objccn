@@ -22,7 +22,7 @@ export default {
     'issue_header_meta',
     'issue_content_list'
   ]
-}
+};
 </script>
 
 <style>

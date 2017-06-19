@@ -12,8 +12,7 @@
         <div class="core-window ">
           <div class="store-product-detail core-clearfix ">
             <div class="store-product-detail-image">
-              <img src="https://dxezhqhj7t42i.cloudfront.net/image/f8efab08-3db4-4707-bf47-efce1f744559 " height="394 " width="300 " alt=" " class
-            ="img-border "></img>
+              <img src="https://dxezhqhj7t42i.cloudfront.net/image/f8efab08-3db4-4707-bf47-efce1f744559 " height="394 " width="300 " alt=" " class="img-border "></img>
             </div>
             <h2 class="store-product-detail-title">Swifter - Swift 必备 tips (第三版)</h2>
             <h3 class="store-product-detail-pricing "><span  class='store-product-price'><span  class='store-value-money store-value-money-single'>&#65509;49.00</span></span></h3>
@@ -21,7 +20,7 @@
               <div class="store-product-detail-description-short ">Swift 是 Apple 于 WWDC 2014 提出的一门全新的开发语言。这门语言从其他很多语言中继承和学习了不少优点，语法非常优美，并且具有轻便灵活等特点，一经推出就备受瞩目。活跃在 iOS 开发一线的作者 王巍(onevcat) 参加了 WWDC 14 开发者大会，亲历了这门语言的诞生，并在第一时间进行了大量的学习和研究。在本书中作者通过总结和分享了 Swift 中 100 条十分实用的小技巧和需要特别注意的地方，希望能让大家更好更快地掌握 Swift。
               </div>
             </div>
-            <el-input-number v-model="book1" @change="handleChange" :min=0 style="bottom: 15px; right: 10px; position: absolute;"> </el-input-number>
+            <el-input-number v-model="book1" :min=0 style="bottom: 15px; right: 10px; position: absolute;"> </el-input-number>
           </div>
 
 
@@ -31,7 +30,7 @@
               <div class="store-product-list store-product-list-offer ">
                 <div class="store-product-detail store-product-list-offer-item ">
                   <div class="store-product-detail-image">
-                    <img src="https://dxezhqhj7t42i.cloudfront.net/image/266b3bbf-36e0-4cd2-807e-aeaf7bcf414f " height="400 " width="300 " alt=" " class ="img-border list-item-image"></img>
+                    <img src="https://dxezhqhj7t42i.cloudfront.net/image/266b3bbf-36e0-4cd2-807e-aeaf7bcf414f " height="400 " width="300 " alt=" " class="img-border list-item-image"></img>
                   </div>
                   <h2 class="store-product-detail-title ">函数式 Swift</h2>
                   <h3 class="store-product-detail-pricing "><span  class='store-product-price'><span  class='store-value-money store-value-money-single'>&#65509;69.00</span></span></h3>
@@ -44,12 +43,12 @@
                       <p>在 Swift 中引入函数式编程为我们的开发带来了无限的乐趣。在本书中我们将阐述函数式编程的理念，并向您展示如何在 Swift 中将它们运用于程序设计，这可以帮助我们写出更加简洁和明确的代码。</p>
                     </div>
                   </div>
-                  <el-input-number v-model="book2" @change="handleChange" :min=0 style="bottom: 20px; right: 10px; position: absolute;"> </el-input-number>
+                  <el-input-number v-model="book2" :min=0 style="bottom: 20px; right: 10px; position: absolute;"> </el-input-number>
 
                 </div>
                 <div class="store-product-detail store-product-list-offer-item ">
                   <div class="store-product-detail-image ">
-                    <img src="https://dxezhqhj7t42i.cloudfront.net/image/a165f416-1d8e-4ff4-a067-f00751aaac22 " height="400 " width="300 " alt=" " class ="img-border list-item-image"></img>
+                    <img src="https://dxezhqhj7t42i.cloudfront.net/image/a165f416-1d8e-4ff4-a067-f00751aaac22 " height="400 " width="300 " alt=" " class="img-border list-item-image"></img>
                   </div>
                   <h2 class="store-product-detail-title ">Swift 进阶</h2>
                   <h3 class="store-product-detail-pricing "><span  class='store-product-price'><span  class='store-value-money store-value-money-single'>&#65509;69.00</span></span></h3>
@@ -61,13 +60,12 @@
                       <p>为了确保正确收到我们的邮件，我们强烈建议您<strong>不要使用</strong> QQ 邮箱。</p>
                     </div>
                   </div>
-                  <el-input-number v-model="book3" @change="handleChange" :min=0 style="bottom: 20px; right: 10px; position: absolute;"> </el-input-number>
+                  <el-input-number v-model="book3" :min=0 style="bottom: 20px; right: 10px; position: absolute;"> </el-input-number>
                 </div>
 
                 <div class="store-product-detail store-product-list-offer-item-last ">
                   <div class="store-product-detail-image ">
-                    <img src="https://dxezhqhj7t42i.cloudfront.net/image/7a3e21cc-96fd-41ec-b226-bc00be79614d" height="400 " width="300 " alt=" " class
-                  ="img-border list-item-image"></img>
+                    <img src="https://dxezhqhj7t42i.cloudfront.net/image/7a3e21cc-96fd-41ec-b226-bc00be79614d" height="400 " width="300 " alt=" " class="img-border list-item-image"></img>
                   </div>
                   <h2 class="store-product-detail-title ">Core Data</h2>
                   <h3 class="store-product-detail-pricing "><span  class='store-product-price'><span  class='store-value-money store-value-money-single'>&#65509;69.00</span></span></h3>
@@ -79,7 +77,7 @@
                       <p>本书所有的代码都使用 Swift 书写， 我们也展示了如何将 Swift 的语言特性融入到 Core Data 中，并写出优雅和安全的代码。我们希望您在阅读本书的时候有一定的 Swift 和 iOS 开发基础，不过相信不论是新人还是富有经验的开发者，都能从本书中找到实用的信息和设计模式。</p>
                     </div>
                   </div>
-                  <el-input-number v-model="book4" @change="handleChange" :min=0 style="bottom: 0px; right: 10px; position: absolute;"> </el-input-number>
+                  <el-input-number v-model="book4" :min=0 style="bottom: 0px; right: 10px; position: absolute;"> </el-input-number>
                 </div>
               </div>
             </div>
@@ -103,12 +101,9 @@ export default {
       book3: 0,
       book4: 0,
       disable: true
-    }
+    };
   },
   methods: {
-    handleChange(value) {
-      console.log(value)
-    },
     next() {
       this.$confirm('😘 请去Objc官网支持 ❤️ 喵神(@onevcat) ❤️', '无法购买', {
         confirmButtonText: '支持',
@@ -118,27 +113,28 @@ export default {
         this.$message({
           type: 'success',
           message: '请手动前往 https://objccn.io/products/'
-        })
+        });
       }).catch(() => {
         this.$message({
           type: 'info',
           message: '已取消购买'
-        })
-      })
+        });
+      });
     }
   },
   computed: {
     getTotalPrice() {
-      return this.book1 * 49 + this.book2 * 69 + this.book3 * 69 + this.book4 * 69
+      return this.book1 * 49 + this.book2 * 69 + this.book3 * 69 + this.book4 * 69;
     }
   }
-}
+};
 </script>
 
 <style scoped>
 .img-border {
   border: 1px solid #dadada;
 }
+
 .core-window {
   position: relative;
 }
