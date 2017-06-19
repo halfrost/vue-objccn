@@ -13,7 +13,7 @@
 <img src="https://img.shields.io/badge/made%20with-%3C3-red.svg">
 </p>
 
-利用 Vue.js 实现 [objc中国](https://objccn.io/) 的跨平台全栈应用
+利用 Vue.js 实现 [Objc中国](https://objccn.io/) 的跨平台全栈应用
 
 - [x] ✅ 桌面应用，支持 Mac、Linux、Windows 三个平台
 - [x] ✅ Web 应用，支持 桌面浏览器 和 手机浏览器
