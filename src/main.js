@@ -9,7 +9,7 @@ import Layout from './components/layout'
 import * as uiv from 'uiv'
 import hljs from 'highlight.js'
 import VeeValidate from 'vee-validate'
-import cordova from './mobile-index'
+// import cordova from './mobile-index'  // 打开此行代码的注释可以打 cordova 的包
 
 Vue.use(uiv)
 Vue.use(ElementUI)
@@ -25,18 +25,18 @@ Vue.directive('hljs', el => {
   Array.prototype.forEach.call(blocks, hljs.highlightBlock)
 })
 
-cordova.onDeviceReady = () => {
+// cordova.onDeviceReady = () => {  // 打开此行代码的注释可以打 cordova 的包
   /* eslint-disable no-new */
-  new Vue({
-    el: '#app',
-    router,
-    store,
-    template: '<Layout/>',
-    components: {
-      Layout
-    }
-    //  render: h => h(App)
-  })
-}
+new Vue({
+  el: '#app',
+  router,
+  store,
+  template: '<Layout/>',
+  components: {
+    Layout
+  }
+  //  render: h => h(App)
+})
+// }
 
-cordova.initialize()
+// cordova.initialize() // 打开此行代码的注释可以打 cordova 的包
