@@ -19,18 +19,18 @@
 export default {
   // Application Constructor
   initialize () {
-    this.bindEvents()
+    this.bindEvents();
   },
   // Bind Event Listeners
   //
   // Bind any events that are required on startup. Common events are:
   // 'load', 'deviceready', 'offline', and 'online'.
   bindEvents () {
-    const app = document.URL.indexOf('http://') === -1 && document.URL.indexOf('https://') === -1
+    const app = document.URL.indexOf('http://') === -1 && document.URL.indexOf('https://') === -1;
     if (app) {
-      document.addEventListener('deviceready', this.onDeviceReady.bind(this), false)
+      document.addEventListener('deviceready', this.onDeviceReady.bind(this), false);
     } else {
-      this.onDeviceReady()
+      this.onDeviceReady();
     }
   },
   // deviceready Event Handler
@@ -39,4 +39,4 @@ export default {
   // function, we must explicitly call 'app.receivedEvent(...);'
   onDeviceReady () {
   }
-}
+};
