@@ -36,7 +36,7 @@ I am a full-time iOS developer, non-front-end developer. Due to contact with Wee
 ## 二. Why write this project？
 
 
-1. At the beginning of this idea is from a netizen, he asked me in my blog, the Internet has not written a better demo? I said that [@EVAN YOU](http://evanyou.me/)’s Hacker News is the best. Later netizen say, the bloggers can write one? I did not answer at the time. In fact, this thing I have always remember in my heart.
+1. At the beginning of this idea is from a netizen, he asked me in my blog, the Internet has not a better Weex demo? I said that [@EVAN YOU](http://evanyou.me/)’s Hacker News is the best. Later netizen say, the bloggers can write one? I did not answer at the time. In fact, this thing I have always remember in my heart.
 
 2. May 19 this year, GitHub use Electron rewrite the macOS and Windows client, coupled with the recent year development of cross-platform getting hotter, for some companies, the Web and app should be needed, app Also need iOS and Android two platforms, and even those who have to develop Weixin mini programs, desktop applications(despite a few), but with the same can be developed with the Electron. I also initiation of the idea of ​​want to be eager.
 
