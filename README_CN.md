@@ -22,6 +22,9 @@
 
 > 注：此项目纯属个人瞎搞，请大家支持 [喵神(@onevcat)](https://github.com/onevcat)，支持 [Objc中国](https://objccn.io/)。
 
+
+>[英文介绍 English Introduction](./README.md)
+
 # 前言
 
 ## 一. 关于我
