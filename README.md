@@ -1,7 +1,7 @@
 # Vue-ObjcCN
 
 <p align='center'>
-<img src='./image/vue-objccn_banner.png'>
+<img src='./image/vue-objccn_banner_.png'>
 </p>
 
 <p align="center">
