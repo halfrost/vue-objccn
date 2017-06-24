@@ -4,6 +4,7 @@
 <img src='./image/vue-objccn_banner_.png'>
 </p>
 
+
 <p align="center">
 <img src="https://img.shields.io/badge/Language-%20JavaScript%20-f9e229.svg">
 <img src="https://img.shields.io/badge/Framework-Vue.js%20-0eb984.svg">
@@ -17,8 +18,13 @@
 
 - [x] ✅ 桌面应用，支持 Mac、Linux、Windows 三个平台
 - [x] ✅ Web 应用，支持 桌面浏览器 和 手机浏览器
-- [x] ✅ 手机 App，目前只支持了 Cordova 框架，支持 iOS 和 Android 两个平台
+- [x] ✅ 手机 App，目前只支持了 Cordova 框架，支持 iOS、Android、Windows Phone、BlackBerry 四个平台
 - [ ] ❌ 手机原生 App，打算用 Weex 框架，同样一起支持 iOS 和 Android 两个平台
+
+
+<p align='center'>
+<img src='./image/Supported_Platforms_CN_.png'>
+</p>
 
 > 注：此项目纯属个人瞎搞，请大家支持 [喵神(@onevcat)](https://github.com/onevcat)，支持 [Objc中国](https://objccn.io/)。
 
