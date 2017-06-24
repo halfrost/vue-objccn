@@ -13,60 +13,68 @@
 <img src="https://img.shields.io/badge/made%20with-%3C3-red.svg">
 </p>
 
-利用 Vue.js 实现 [Objc中国](https://objccn.io/) 的跨平台全栈应用
+Use Vue.js to develop a cross-platform full stack application of [Objc china](https://objccn.io/) 
+ 
+   
+- [x] ✅ Desktop applications, support Mac, Linux, Windows three platforms
+- [x] ✅ Web applications, support for desktop browsers and mobile browsers
+- [x] ✅ Mobile App, currently only supports the Cordova framework, support iOS and Android two platforms
+- [ ] ❌ Mobile phone native App, intended to use Weex framework, the same support for both iOS and Android platform
 
-- [x] ✅ 桌面应用，支持 Mac、Linux、Windows 三个平台
-- [x] ✅ Web 应用，支持 桌面浏览器 和 手机浏览器
-- [x] ✅ 手机 App，目前只支持了 Cordova 框架，支持 iOS 和 Android 两个平台
-- [ ] ❌ 手机原生 App，打算用 Weex 框架，同样一起支持 iOS 和 Android 两个平台
+> Note: This project is purely just for fun, please support [喵神(@onevcat)](https://github.com/onevcat)，support [Objc china](https://objccn.io/)。  
 
-> 注：此项目纯属个人瞎搞，请大家支持 [喵神(@onevcat)](https://github.com/onevcat)，支持 [Objc中国](https://objccn.io/)。
 
-# 前言
+> [中文介绍 chinese introduction](./README_CN.md)
 
-## 一. 关于我
+# Preface
 
-我是一名全职的 iOS 开发者，非前端开发者。由于接触了 Weex 开发，从而接触到了 Vue.js。
+## 一. About me
 
-## 二. 为什么会写这个项目？
+I am a full-time iOS developer, non-front-end developer. Due to contact with Weex development, thereby came into contact with the Vue.js.
 
-1. 最开始有这个想法的时候是来自一个网友，他在我的博客上问我，网上有没有写的比较好的 demo ？我说尤大写的那个 Hacker News 是最好的。后来网友就是，楼主能写一个么？我当时回答暂时不行。其实这事我一直记在心里。
 
-2. 今年 5 月 19 号，GitHub 使用 Electron 重写了 macOS 和 Windows 的客户端，加上近些年跨端开发越来越火，对于一些公司来说，Web 和 app 应该都是需要的，app 还需要 iOS 和 Android 两个平台，再有甚者还要开发小程序，桌面级的应用虽然少，但是用 Electron 一样可以一起开发了。自己也萌生了想要跃跃欲试的念头。
+## 二. Why write this project？
 
-3. 由于接触到了 Vue.js，当然不想停留在初级，想进阶，尤大给出了建议，就是多实践，多练。为了加快进阶的步伐，自己私下就找项目练。
 
-4. 至于为何选择 Objc 中国，理由其实很简单，因为我是 iOS 开发者。在 iOS 开发者中，Objc 基本上人尽皆知（有不知道的？），喵神也基本上人尽皆知，我个人很崇拜喵神，所以就选了 Objc 中国来写。
+1. At the beginning of this idea is from a netizen, he asked me in my blog, the Internet has not written a better demo? I said that [@EVAN YOU](http://evanyou.me/)’s Hacker News is the best. Later netizen say, the bloggers can write one? I did not answer at the time. In fact, this thing I have always remember in my heart.
 
-5. 因为爱 ... ...
+2. May 19 this year, GitHub use Electron rewrite the macOS and Windows client, coupled with the recent year development of cross-platform getting hotter, for some companies, the Web and app should be needed, app Also need iOS and Android two platforms, and even those who have to develop Weixin mini programs, desktop applications(despite a few), but with the same can be developed with the Electron. I also initiation of the idea of ​​want to be eager.
 
-## 三. 这次为何跨端开发没有 Weex？
+3. As a result of the contact to the Vue.js, of course, do not want to stay in the primary, would like to advanced, [@EVAN YOU](http://evanyou.me/) especially given the recommendations, is more practice, more practice. In order to speed up the pace of progress, I own private to find the project for practicing.
 
-这次在我写完项目以后，发现 Vue 的代码直接转换成 Weex 的项目，是无法实现的，好多报错。而且不是一下子能都修复好。我相信是我使用姿势的问题，不是 Weex 的问题。对了，Weex 又发布新版本了，接下来有时间的话就把 Weex 版的也做一遍开源。
+4. As for why to choose Objc China, the reason is actually very simple, because I am an iOS developer. In iOS developers, Objc is basically well known (do not know?), [喵神(@onevcat)](https://github.com/onevcat) is basically well known, I personally worship [喵神(@onevcat)](https://github.com/onevcat), so I chose Objc China to write.
 
-好了，进入正题，说项目：
+5. Because of love ... ...
 
-# 技术栈和主要框架
 
-📦 Vue 全家桶：vue2 + vuex + vue-router + webpack  
+## 三. Why this development of cross-platform project without Weex？
+
+
+After I finished the project, found that Vue code directly converted to Weex project, can not be achieved, a lot of error. And not all of them can be repaired immediately. I believe that I use the wrong way, not Weex's problem. By the way, Weex has released a new version, and then there is time to put Weeks version of the open source again.
+
+Well, into the topic, Let's introduce this project:
+
+
+# Technology stack & main framework
+
+📦 All technology stack of Vue：vue2 + vuex + vue-router + webpack  
 📌 ES6     
-📡 网络请求：axios  
-🎈 页面相应式框架：bootstrap，element-ui  
-✏️ 后台：express  
-📝 代码高亮：highlight.js  
-🗄 数据库：lowdb  
-📖 Markdown解析器：vue-markdown  
-🔖 表单验证：vee-validate  
-🏆 跨平台框架：Electron  
+📡 Network request：axios  
+🎈 Response framework：bootstrap，element-ui  
+✏️ Backend：express  
+📝 Code highlighted：highlight.js  
+🗄 Database：lowdb  
+📖 Markdown Parser：vue-markdown  
+🔖 Form validation：vee-validate  
+🏆 Cross-platform framework：Electron  
 
-# 🔨 项目构建
+# 🔨 How to build 
 
-由于喵神的 Objc 网站是直接返回 html，所以想进行模拟网络请求返回数据，就只能自己搭建一个后台，写 API 返回数据了。
+Due to Objc china website is directly response html data, so I want to simulate the network request to return data, should build a server, write API return data.
 
-我利用 Express 把后台搭建在 8081 端口上，并写好路由，请求会转到 8080，开启服务器的时候也会自动开启后台。
+I use Express framework to build a server, set up in the 8081 port, and write routing, the request will go to 8080, open the server will automatically open the background.
 
-
-我当前的开发环境是 node v6.11.0 ，npm v3.10.10，Vue.js v2.8.2 
+My current development environment is node v6.11.0 ，npm v3.10.10，Vue.js v2.8.2.
 
 
 ``` bash
@@ -109,55 +117,55 @@ npm run build:app
 
 ```
 
-这里要单独说一下 Cordova 的打包方式，它比桌面端的稍微特殊一点。
 
-首先把 src/main.js 文件中三行关于 Coredova 的注释打开，Coredova 库的初始化需要包在生成 Vue 实例 的外面。打开注释以后，再执行接下来的步骤。
+Here to talk about Cordova's packaging alone, it is slightly more than the desktop side of the special point.
 
-我在项目中放了一个 Makefile，可以根据这个来做。
+First, make the src / main.js file on the three lines on the Coredova note open, Coredova library initialization needs to be included in the generation of Vue instance outside. After opening the comment, proceed to the next step.
 
-1. 首先全局安装 cordova 命令
+I put a Makefile in the project, you can do this according to this.
 
+
+1. First install the cordova command globally
 > npm install -g cordova 
 
-2. 再输入下面的命令，生成 app 项目目录
-
+2. And then enter the following command to generate the app project directory
 > cordova create app com.vueobjccn vueobjccn
 
-3. 进入到 app 文件夹中
-
+3. Into the app folder
 > cd app
 
-4. 添加对应的平台
-
+4. Add the corresponding platform
 > cordova platform add ios  
 > cordova platform add android
 
-5. 运行项目
-
+5. Run the project
 > cordova run ios  
 > cordova run android
 
-Cordova 只生成了一个壳的 app，里面具体的内容还是读取的网页，在生成的对应的应用里面有一个 www 的文件夹，这个文件夹里面就是要加载页面。JavaScript 打包之后是会生成 www 的文件夹，只要去替换 Cordova 对应平台里面的 www 文件夹里面的内容即可。
 
-额外说几句，在 app 发展到现在这么成熟的时代，如果构建一个大的 app，用 Cordova 框架去做，不用原生，不做任何优化，用户体验确实不如原生的快。我这次就专门打包体验了 Cordova app，没有做任何优化，打包出来就用，如果是挑剔的用户，放在当今各大 app 接近完美的体验度相比来说，确实会感到满足感略低。如果真的要前端开发 app ，给2个建议，如果是用 Cordova 框架，一定要尽量优化优化，不如性能不如原生。如果想有接近原生的体验，那么可以考虑用 React Native 或者 Weex。
+Cordova only generated a shell of the app, inside the specific content still read the webpage, in the corresponding application which has a www inside the folder, this folder is to load the page inside. JavaScript package will generate the www folder, just replace the content which inside the Cordova corresponding platform’s www folder.
 
-# 🚀 跨平台开发
+Add a few words, app development to the present so mature era, if you develop a large app, with Cordova framework to do, do not use Objective-C or Swift to develop, do not do any optimization, the user experience is really not as good as the native fast. I have a special package to experience the Cordova app, did not do any optimization, packaged out on the experience, if it is critical of the user, on the current major app close to the perfect experience compared to really do not feel a little sense of satisfaction. If you really want to use front-end technology development app, to give 2 recommendations, if it is Cordova framework, we must try to optimize it, otherwise, the performance of app is not as good as the native performance. If you want to have a close to the native experience, then you can consider using React Native or Weex.
 
-JavaScript 跨平台开发打包成桌面级应用，主要用 Electron 框架。这里需要在 devDependencies 里面安装好 "electron"、"electron-builder"、"electron-packager" 这三个。其他的路径配置在 webpack 里面配置好即可。
 
-关于 Cordova 的安装，确实可以吐槽一点网络的问题。如果你在一个翻墙环境很差的地方，真的很痛苦。比如之前在一个翻墙环境很差的情况下全局安装 Cordova ，各种报错，就算是换了 cnpm 完全安装了以后，添加 iOS 平台以后以后会报一个 co 文件找不到的问题，感觉是 cnpm 没有把命令安装完整。后来我回到家里，翻墙网络很好，npm install 一下子就安装好了。不过有个小插曲：Cordova iOS 4.4.0 template 如果报错，就多安装几次，原因还是翻墙的原因，没有 catch 到。
+# 🚀 Cross-platform development
 
-还有可能会遇到下面这个错误：
+JavaScript cross-platform development packaged into desktop applications, mainly use the Electron framework. Here you need to install the devdependencies inside "electron", "electron-builder", "electron-packager" these three framework. Make sure the other path configuration in the webpack have configured completed.
+
+About Cordova installation, I make complaints a little network problems in china. If you are not over the wall in china, it is really painful. For example, Not over the wall and in a very poor network environment, installation of Cordova globally, lots of error, even for the complete installation of cnpm after the addition of the iOS platform will later report a problem of 'co' file can not find, I suspect cnpm could not install the command complete. Later, I go back home, over the wall and network environment is very good, All of a sudden the npm installation is complete. But there is a small episode: If Cordova iOS 4.4.0 template throw a error, suggest installation of several times, the reason is still for the network over the wall in china, no catch to it.
+
+There may be encountered the following error:
 
 > "Error: Cannot find module 'config-chain'" when running 'ionic start'
 
-这个错误就用 sudo 命令重新尝试一遍原命令就好了。
+The solution of this error is trying again the original order with the sudo command. This error could be solved
 
-最终打包完成会在 dist 的文件夹中。
+The final package will be done in the dist folder.
 
-接下来展示一下这个跨三端的应用在各个平台下的表现：
+Next to show the performance of the cross-platform application on each platform:
 
-先展示一下 Web 端
+First show the Web side:
+
 
 <p align='center'>
 <img src='./image/Screenshots/Web/Web 1.png'>
@@ -179,44 +187,44 @@ JavaScript 跨平台开发打包成桌面级应用，主要用 Electron 框架�
 <img src='./image/Screenshots/Web/Web 5.png'>
 </p>
 
-再展示一下在手机浏览器上的效果：
+And then show the effect in the mobile browser:
 
-Android 平台
+Android platform
 
-Nexus 5x 的 Web
+Nexus 5x Web
 <p align='center'>
 <img src='./image/Screenshots/Web/Nexus 5x Web.png'>
 </p>
 
-Nexus 6P 的 Web
+Nexus 6P Web
 <p align='center'>
 <img src='./image/Screenshots/Web/Nexus 6P Web.png'>
 </p>
 
-iOS 平台
+iOS platform
 
-iPhone 5 的 Web
+iPhone 5 Web
 <p align='center'>
 <img src='./image/Screenshots/Web/iPhone 5 Web.png'>
 </p>
 
-iPhone 7 的 Web
+iPhone 7 Web
 <p align='center'>
 <img src='./image/Screenshots/Web/iPhone 7 Web.png'>
 </p>
 
-iPhone 7 Plus 的 Web
+iPhone 7 Plus Web
 <p align='center'>
 <img src='./image/Screenshots/Web/iPhone 7 Plus Web.png'>
 </p>
 
-iPad 的 Web
+iPad Web
 
 <p align='center'>
 <img src='./image/Screenshots/Web/iPad Web.png'>
 </p>
 
-接着再看看 Mac 端上的表现：
+Then look at the performance in Mac side:
 
 <p align='center'>
 <img src='./image/Screenshots/Mac/Mac 1.png'>
@@ -234,7 +242,7 @@ iPad 的 Web
 <img src='./image/Screenshots/Mac/Mac 4.png'>
 </p>
 
-最后看看 Cordova 的效果：
+Finally look at Cordova's effect:
 
 <p align='center'>
 <img src='./image/Screenshots/iPhone/iPhone 1.png'>
@@ -260,93 +268,101 @@ iPad 的 Web
 <img src='./image/Screenshots/iPad/iPad 3.png'>
 </p>
 
-# 🌈 功能展示
+# 🌈 Function display
 
-用 Vue.js 搭建一个 Web 页面很快。
+Build a Web page with Vue.js quickly.
 
 <p align='center'>
 <img src='./image/Gifs/Web.gif'>
 </p>
 
-看看 Vuex 管理状态的方便。登录状态保存在 state 里面，全局都会获取到。
+Vuex management status is very convenient. Login status saved in the state inside, the global object will be obtained it.
 
 <p align='center'>
 <img src='./image/Gifs/Web-login.gif'>
 </p>
 
-一旦用户没有登录，点击购买电子书的时候，判断没有用户登录都会跳转到登录页面。
 
-还有一点值得说的是，由于这是一个 SPA ，所以里面的路由都用 Router-link 实现的，而没有选用 a 标签的跳转，效果就是跳转并不用去请求数据，秒跳。这个用户体验真的很爽。
+Once the user is not logged in, click on the purchase of e-books, to determine no user login will jump to the login page.
 
-`<router-link>` 比起写死的 `<a href="...">` 会好一些，理由如下：
+Another point is to say that because this is a SPA, so the routing inside are using Router-link to achieve, but did not use `<a>` tag jump, the effect is to jump and do not have to request data, jump quickly. This user experience is really cool.
 
-无论是 HTML5 history 模式还是 hash 模式，它的表现行为一致，所以，当你要切换路由模式，或者在 IE9 降级使用 hash 模式，无须作任何变动。
+`<router-link>` is preferred over hard-coded `<a href="...">` for the following reasons:
 
-在 HTML5 history 模式下，router-link 会拦截点击事件，让浏览器不再重新加载页面。
+It works the same way in both HTML5 history mode and hash mode, so if you ever decide to switch mode, or when the router falls back to hash mode in IE9, nothing needs to be changed.
 
-当你在 HTML5 history 模式下使用 base 选项之后，所有的 to 属性都不需要写（基路径）了。
+In HTML5 history mode, router-link will intercept the click event so that the browser doesn't try to reload the page.
+
+When you are using the base option in HTML5 history mode, you don't need to include it in to prop's URLs.
 
 <p align='center'>
 <img src='./image/Gifs/Web-logout.gif'>
 </p>
 
-登出页面同理，一旦用户登出，所有显示用户名的地方都会变成登录，navigationBar 上的购物车也一并消失。用 Vuex 管理状态，挺好的。
+Log out of the page Similarly, once the user logs out, all show the user name will become a status to be logged in, the shopping cart on navigationBar also be disappeared. Manage status with Vuex, very Exciting.
+
 
 <p align='center'>
 <img src='./image/Gifs/Web-email.gif'>
 </p>
 
-这就是 email 的表单验证了，没有太多的技术含量。
+This is the email form validation, not too much technical content.
 
 <p align='center'>
 <img src='./image/Gifs/Web-buy.gif'>
 </p>
 
-这里是购物车页面，这里用到了 MVVM 页面的绑定的思想，页面上 4 个按钮，点任意一个按钮都会立即改变下面的总价。关于 Vue.js 的 MVVM 实现思想值得 iOSer 们学习。
+Here is the shopping cart page, where the use of the MVVM page binding ideas, the page on the four buttons, any button will immediately change the following total price. iOSer learn that Vue.js on the MVVM implementation of thinking worthy.
 
-接下来这个是 iPhone 的 Safari 上的表现，速度还可以。
+Then this is the iPhone's Safari performance, the speed is well.
 
 <p align='center'>
 <img src='./image/Gifs/Web-iPhone.gif'>
 </p>
 
-在跨平台的这几个应用中，体验最好的，我觉得还是 Mac 的应用。使用起来满意度非常高。
+In the cross-platform of these applications, the best experience, I think it is the application of Mac. Use satisfaction is very high.
+
 
 <p align='center'>
 <img src='./image/Gifs/Web-Mac.gif'>
 </p>
 
-最后就是 Cordova 框架搭建的 手机 app，体验度不高，具体如何，看图吧，总之不优化的 Cordova ，对于挑剔的我来说，我是不满意的。
 
-iPhone 上的应用
+Finally Cordova framework build the mobile phone app, experience is unsatisfactory, in short, not optimized Cordova, for picky me, I was not satisfied. See this showcase below:
+
+
+iPhone application
 
 <p align='center'>
 <img src='./image/Gifs/Web-iPone app.gif'>
 </p>
 
-iPad 上的应用
+iPad application
 
 <p align='center'>
 <img src='./image/Gifs/Web-iPad app.gif'>
 </p>
 
-# 🤔 项目完成之后的感想
+# 🤔 After the completion of the project, I Fall into meditation
 
-先安利一下 element-ui 这个项目，用它来搭建项目，真的很快，页面很快就可以搭建完成，开发 Vue.js 的同学一定有听过这个库。节约出来的大把时间可以把更多的精力放在业务开发上面。
 
-大家都在说现在是大前端时代，移动开发和前端融合是必然。但是两个平台的开发其实还是有很多的不同，我在经历过前端的开发和 iOS 开发以后，感想还是很多的，前端和 iOS 是有很多可以相互学习的地方，两者也各有优缺点。接下来我打算写写这些方面的系列文章。前端的工程化，组件化，路由，MVVM，分别和 iOS 这边各有哪些优缺点，相互可以学习些什么。（感觉给自己挖了一个大坑）
+First Amway [element-ui](https://github.com/ElemeFE/element) this project, use it to build the project, really very fast, a app can be efficient development. the development of Vue.js students must have heard of this library. Saving a lot of time can put more energy on business development.
+
+Everyone is saying that now is a large front-end era, mobile development and front-end integration is inevitable. But the development of the two platforms is still a lot of different, I experienced a front-end development and iOS development, thinking a lot, front-end and iOS are a lot of places to learn from each other, both have their own advantages and disadvantages. Then I intend to write a series of articles on these aspects. The engineering, component, routing, MVVM of front-end, respectively, and iOS where the advantages and disadvantages of each other, what can learn each other. (Feeling to dig a big pit)
+
 
 # 📜 Feature
 
-有时间就支持 Weex ，把这个 Vue.js 的改成一个完整的 Weex 的应用，变成原生以后，性能一定不会差。这样跨平台开发就应该全了。
+If I have free time, I want to support Weex, take Vue.js into a complete Weex application, become native app, the performance will not be bad. So cross-platform development should be the whole platform.
 
-# ❗️ 勘误
 
-如果在项目中发现了有什么不解或者发现了 bug，欢迎提交 PR 或者 issue，欢迎大神们多多指点小弟🙏🙏🙏
+# ❗️ Errata
 
-# ♥️ 感谢
+If found in the project what is puzzled or found a bug, welcome to submit PR or issue, thank you very much🙏🙏🙏
 
-如果喜欢这个项目，欢迎 Star！
+# ♥️ Thanks
+
+If you like this project, welcome Star!
 
 # 🌏 LICENSE
 
