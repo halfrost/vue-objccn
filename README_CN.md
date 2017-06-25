@@ -120,29 +120,24 @@ npm run build:app
 
 这里要单独说一下 Cordova 的打包方式，它比桌面端的稍微特殊一点。
 
-首先把 src/main.js 文件中三行关于 Coredova 的注释打开，Coredova 库的初始化需要包在生成 Vue 实例 的外面。打开注释以后，再执行接下来的步骤。
+首先把 src/main.js 文件中关于 Coredova 的三行注释打开，Coredova 库的初始化需要包在生成 Vue 实例 的外面。打开注释以后，再执行接下来的步骤。
 
 我在项目中放了一个 Makefile，可以根据这个来做。
 
 1. 首先全局安装 cordova 命令
-
 > npm install -g cordova 
 
 2. 再输入下面的命令，生成 app 项目目录
-
 > cordova create app com.vueobjccn vueobjccn
 
 3. 进入到 app 文件夹中
-
 > cd app
 
 4. 添加对应的平台
-
 > cordova platform add ios  
 > cordova platform add android
 
 5. 运行项目
-
 > cordova run ios  
 > cordova run android
 
