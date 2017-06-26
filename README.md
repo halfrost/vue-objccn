@@ -1,15 +1,14 @@
-
-
 <p align='center'>
 <img src='./image/vue-objccn_banner_.png'>
 </p>
 
 <p align="center">
 <img src="https://img.shields.io/badge/Language-%20JavaScript%20-f9e229.svg">
-<img src="https://img.shields.io/badge/Framework-Vue.js%20-0eb984.svg">
-<img src="https://img.shields.io/badge/license-GPL-blue.svg">
+<a href="https://github.com/vuejs/vue"><img src="https://img.shields.io/badge/Framework-Vue.js%20-0eb984.svg"></a>
+<a href="https://github.com/halfrost/vue-objccn/blob/master/LICENSE"><img src="https://img.shields.io/badge/license-GPL-blue.svg"></a>
 <img src="https://img.shields.io/badge/platform-%20iOS | Mac | Web%20-ff69b4.svg">
-<a href="https://github.com/halfrost/vue-objccn/pulls"><img src="https://img.shields.io/badge/PR-welcome%20!-brightgreen.svg?colorA=a0cd34"></a>
+<a href="https://github.com/halfrost/vue-objccn/pulls"><img src="https://img.shields.io/badge/PR-Welcome-brightgreen.svg"></a>
+<a href="http://weibo.com/halfrost"><img src="https://img.shields.io/badge/weibo-@halfrost-red.svg?style=flat"></a>
 <img src="https://img.shields.io/badge/made%20with-%3C3-red.svg">
 </p>
 
@@ -20,9 +19,7 @@ Use Vue.js to develop a cross-platform full stack application of [Objc china](ht
 - [x] ✅ Mobile App, currently only supports the Cordova framework, support iOS、Android、Windows Phone、BlackBerry four platforms
 - [ ] ❌ Mobile phone native App, intended to use Weex framework, the same support for both iOS and Android platform
 
-
-
-> Note: This project is purely just for fun, please support [喵神(@onevcat)](https://github.com/onevcat)，support [Objc china](https://objccn.io/)。  
+> Note: This project is purely just for fun, please support [喵神(@onevcat)](https://github.com/onevcat), support [Objc china](https://objccn.io/).  
 
 > [中文介绍 chinese introduction](./README_CN.md)
 
@@ -55,7 +52,7 @@ Well, into the topic, Let's introduce this project:
 📦 All technology stack of Vue：vue2 + vuex + vue-router + webpack  
 📌 ES6     
 📡 Network request：axios  
-🎈 Response framework：bootstrap，element-ui  
+🎈 Response framework：bootstrap, element-ui  
 ✏️ Backend：express  
 📝 Code highlighted：highlight.js  
 🗄 Database：lowdb  
@@ -63,8 +60,7 @@ Well, into the topic, Let's introduce this project:
 🔖 Form validation：vee-validate  
 🏆 Cross-platform framework：Electron  
 
-
-# 📱Supported platforms
+## 📱 Supported platforms
 
 <p align='center'>
 <img src='./image/Supported_Platforms_.png'>
@@ -76,7 +72,7 @@ Due to Objc china website is directly response html data, so I want to simulate 
 
 I use Express framework to build a server, set up in the 8081 port, and write routing, the request will go to 8080, open the server will automatically open the background.
 
-My current development environment is node v6.11.0 ，npm v3.10.10，Vue.js v2.8.2.
+My current development environment is node v6.11.0 , npm v3.10.10, Vue.js v2.8.2.
 
 ``` bash
 
