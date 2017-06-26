@@ -1,16 +1,14 @@
-
-
 <p align='center'>
 <img src='./image/vue-objccn_banner_.png'>
 </p>
 
-
 <p align="center">
 <img src="https://img.shields.io/badge/Language-%20JavaScript%20-f9e229.svg">
-<img src="https://img.shields.io/badge/Framework-Vue.js%20-0eb984.svg">
-<img src="https://img.shields.io/badge/license-GPL-blue.svg">
+<a href="https://github.com/vuejs/vue"><img src="https://img.shields.io/badge/Framework-Vue.js%20-0eb984.svg"></a>
+<a href="https://github.com/halfrost/vue-objccn/blob/master/LICENSE"><img src="https://img.shields.io/badge/license-GPL-blue.svg"></a>
 <img src="https://img.shields.io/badge/platform-%20iOS | Mac | Web%20-ff69b4.svg">
-<a href="https://github.com/halfrost/vue-objccn/pulls"><img src="https://img.shields.io/badge/PR-welcome%20!-brightgreen.svg?colorA=a0cd34"></a>
+<a href="https://github.com/halfrost/vue-objccn/pulls"><img src="https://img.shields.io/badge/PR-Welcome-brightgreen.svg"></a>
+<a href="http://weibo.com/halfrost"><img src="https://img.shields.io/badge/weibo-@halfrost-red.svg?style=flat"></a>
 <img src="https://img.shields.io/badge/made%20with-%3C3-red.svg">
 </p>
 
@@ -21,19 +19,17 @@
 - [x] ✅ 手机 App，目前只支持了 Cordova 框架，支持 iOS、Android、Windows Phone、BlackBerry 四个平台
 - [ ] ❌ 手机原生 App，打算用 Weex 框架，同样一起支持 iOS 和 Android 两个平台
 
-
 > 注：此项目纯属个人瞎搞，请大家支持 [喵神(@onevcat)](https://github.com/onevcat)，支持 [Objc中国](https://objccn.io/)。
 
+> [英文介绍 English Introduction](./README.md)
 
->[英文介绍 English Introduction](./README.md)
+## 前言
 
-# 前言
-
-## 一. 关于我
+### 一. 关于我
 
 我是一名全职的 iOS 开发者，非前端开发者。由于接触了 Weex 开发，从而接触到了 Vue.js。
 
-## 二. 为什么会写这个项目？
+### 二. 为什么会写这个项目？
 
 1. 最开始有这个想法的时候是来自一个网友，他在我的博客上问我，网上有没有写的比较好的 Weex demo ？我说尤大写的那个 Hacker News 是最好的。后来网友就说，楼主能写一个么？我当时回答暂时不行。其实这事我一直记在心里。
 
@@ -45,13 +41,13 @@
 
 5. 因为爱 ... ...
 
-## 三. 这次为何跨端开发没有 Weex？
+### 三. 这次为何跨端开发没有 Weex？
 
 这次在我写完项目以后，发现 Vue 的代码直接转换成 Weex 的项目，是无法实现的，好多报错。而且不是一下子能都修复好。我相信是我使用姿势的问题，不是 Weex 的问题。对了，Weex 又发布新版本了，接下来有时间的话就把 Weex 版的也做一遍开源。
 
 好了，进入正题，说项目：
 
-# 技术栈和主要框架
+## 技术栈和主要框架
 
 📦 Vue 全家桶：vue2 + vuex + vue-router + webpack  
 📌 ES6     
@@ -64,24 +60,19 @@
 🔖 表单验证：vee-validate  
 🏆 跨平台框架：Electron  
 
-
-   
-# 📱支持的平台
+## 📱 支持的平台
 
 <p align='center'>
 <img src='./image/Supported_Platforms_CN_.png'>
 </p>
 
-
-# 🔨 项目构建
+## 🔨 项目构建
 
 由于喵神的 Objc 网站是直接返回 html，所以想进行模拟网络请求返回数据，就只能自己搭建一个后台，写 API 返回数据了。
 
 我利用 Express 把后台搭建在 8081 端口上，并写好路由，请求会转到 8080，开启服务器的时候也会自动开启后台。
 
-
 我当前的开发环境是 node v6.11.0 ，npm v3.10.10，Vue.js v2.8.2 
-
 
 ``` bash
 
@@ -150,7 +141,7 @@ Cordova 只生成了一个壳的 app，里面具体的内容还是读取的网�
 
 额外说几句，在 app 发展到现在这么成熟的时代，如果构建一个大的 app，用 Cordova 框架去做，不用原生，不做任何优化，用户体验确实不如原生的快。我这次就专门打包体验了 Cordova app，没有做任何优化，打包出来就用，如果是挑剔的用户，放在当今各大 app 接近完美的体验度相比来说，确实会感到满足感略低。如果真的要前端开发 app ，给2个建议，如果是用 Cordova 框架，一定要尽量优化优化，不然性能不如原生。如果想有接近原生的体验，那么可以考虑用 React Native 或者 Weex。
 
-# 🚀 跨平台开发
+## 🚀 跨平台开发
 
 JavaScript 跨平台开发打包成桌面级应用，主要用 Electron 框架。这里需要在 devDependencies 里面安装好 "electron"、"electron-builder"、"electron-packager" 这三个。其他的路径配置在 webpack 里面配置好即可。
 
@@ -269,7 +260,7 @@ iPad 的 Web
 <img src='./image/Screenshots/iPad/iPad 3.png'>
 </p>
 
-# 🌈 功能展示
+## 🌈 功能展示
 
 用 Vue.js 搭建一个 Web 页面很快。
 
@@ -339,26 +330,26 @@ iPad 上的应用
 <img src='./image/Gifs/Web-iPad app.gif'>
 </p>
 
-# 🤔 项目完成之后的感想
+## 🤔 项目完成之后的感想
 
 先安利一下 element-ui 这个项目，用它来搭建项目，真的很快，页面很快就可以搭建完成，开发 Vue.js 的同学一定有听过这个库。节约出来的大把时间可以把更多的精力放在业务开发上面。
 
 大家都在说现在是大前端时代，移动开发和前端融合是必然。但是两个平台的开发其实还是有很多的不同，我在经历过前端的开发和 iOS 开发以后，感想还是很多的，前端和 iOS 是有很多可以相互学习的地方，两者也各有优缺点。接下来我打算写写这些方面的系列文章。前端的工程化，组件化，路由，MVVM，分别和 iOS 这边各有哪些优缺点，相互可以学习些什么。（感觉给自己挖了一个大坑）
 
-# 📜 Feature
+## 📜 Feature
 
 有时间就支持 Weex ，把这个 Vue.js 的改成一个完整的 Weex 的应用，变成原生以后，性能一定不会差。这样跨平台开发就应该全了。
 
-# ❗️ 勘误
+## ❗️ 勘误
 
 如果在项目中发现了有什么不解或者发现了 bug，欢迎提交 PR 或者 issue，欢迎大神们多多指点小弟🙏🙏🙏
 
-# ♥️ 感谢
+## ♥️ 感谢
 
 如果喜欢这个项目，欢迎 Star！
 
-# 🌏 LICENSE
+## 🌏 LICENSE
 
 ![](https://www.gnu.org/graphics/gplv3-127x51.png)
 
-Vue-ObjcCN is available under the GPLv3 license. See the LICENSE file for more info.
+Vue-ObjcCN 基于 GPLv3 协议进行分发和使用，更多信息参见协议文件。
