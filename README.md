@@ -1,4 +1,4 @@
-# Vue-ObjcCN
+
 
 <p align='center'>
 <img src='./image/vue-objccn_banner_.png'>
@@ -9,7 +9,7 @@
 <img src="https://img.shields.io/badge/Framework-Vue.js%20-0eb984.svg">
 <img src="https://img.shields.io/badge/license-GPL-blue.svg">
 <img src="https://img.shields.io/badge/platform-%20iOS | Mac | Web%20-ff69b4.svg">
-<img src="https://img.shields.io/badge/PR-welcome%20!-brightgreen.svg?colorA=a0cd34">
+<a href="https://github.com/halfrost/vue-objccn/pulls"><img src="https://img.shields.io/badge/PR-welcome%20!-brightgreen.svg?colorA=a0cd34"></a>
 <img src="https://img.shields.io/badge/made%20with-%3C3-red.svg">
 </p>
 
@@ -20,9 +20,7 @@ Use Vue.js to develop a cross-platform full stack application of [Objc china](ht
 - [x] ✅ Mobile App, currently only supports the Cordova framework, support iOS、Android、Windows Phone、BlackBerry four platforms
 - [ ] ❌ Mobile phone native App, intended to use Weex framework, the same support for both iOS and Android platform
 
-<p align='center'>
-<img src='./image/Supported_Platforms_.png'>
-</p>
+
 
 > Note: This project is purely just for fun, please support [喵神(@onevcat)](https://github.com/onevcat)，support [Objc china](https://objccn.io/)。  
 
@@ -64,6 +62,13 @@ Well, into the topic, Let's introduce this project:
 📖 Markdown Parser：vue-markdown  
 🔖 Form validation：vee-validate  
 🏆 Cross-platform framework：Electron  
+
+
+# 📱Supported platforms
+
+<p align='center'>
+<img src='./image/Supported_Platforms_.png'>
+</p>
 
 ## 🔨 How to build 
 

@@ -1,4 +1,4 @@
-# Vue-ObjcCN
+
 
 <p align='center'>
 <img src='./image/vue-objccn_banner_.png'>
@@ -10,7 +10,7 @@
 <img src="https://img.shields.io/badge/Framework-Vue.js%20-0eb984.svg">
 <img src="https://img.shields.io/badge/license-GPL-blue.svg">
 <img src="https://img.shields.io/badge/platform-%20iOS | Mac | Web%20-ff69b4.svg">
-<img src="https://img.shields.io/badge/PR-welcome%20!-brightgreen.svg?colorA=a0cd34">
+<a href="https://github.com/halfrost/vue-objccn/pulls"><img src="https://img.shields.io/badge/PR-welcome%20!-brightgreen.svg?colorA=a0cd34"></a>
 <img src="https://img.shields.io/badge/made%20with-%3C3-red.svg">
 </p>
 
@@ -21,10 +21,6 @@
 - [x] ✅ 手机 App，目前只支持了 Cordova 框架，支持 iOS、Android、Windows Phone、BlackBerry 四个平台
 - [ ] ❌ 手机原生 App，打算用 Weex 框架，同样一起支持 iOS 和 Android 两个平台
 
-
-<p align='center'>
-<img src='./image/Supported_Platforms_CN_.png'>
-</p>
 
 > 注：此项目纯属个人瞎搞，请大家支持 [喵神(@onevcat)](https://github.com/onevcat)，支持 [Objc中国](https://objccn.io/)。
 
@@ -67,6 +63,15 @@
 📖 Markdown解析器：vue-markdown  
 🔖 表单验证：vee-validate  
 🏆 跨平台框架：Electron  
+
+
+   
+# 📱支持的平台
+
+<p align='center'>
+<img src='./image/Supported_Platforms_CN_.png'>
+</p>
+
 
 # 🔨 项目构建
 
