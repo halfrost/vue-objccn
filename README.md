@@ -14,36 +14,37 @@
 
 Use Vue.js to develop a cross-platform full stack application of [Objc china](https://objccn.io/).
     
-- [x] ✅ Desktop applications, support Mac, Linux, Windows three platforms
-- [x] ✅ Web applications, support for desktop browsers and mobile browsers
-- [x] ✅ Mobile App, currently only supports the Cordova framework, support iOS、Android、Windows Phone、BlackBerry four platforms
-- [ ] ❌ Mobile phone native App, intended to use Weex framework, the same support for both iOS and Android platform
+- [x] ✅ Desktop application available for three platforms, Mac, Linux and Windows 
+- [x] ✅ Web application supports desktop browsers and mobile browsers
+- [x] ✅ Mobile App which uses the Cordova framework, supports iOS、Android、Windows Phone and BlackBerry platforms
+- [ ] ❌ Native Mobile App, which can use Weex framework to support both iOS and Android
 
-> Note: This project is purely just for fun, please support [喵神(@onevcat)](https://github.com/onevcat), support [Objc china](https://objccn.io/).  
+> Note: This project is just a bit of fun and purely for learning purposes, please support [喵神(@onevcat)](https://github.com/onevcat) and [Objc china](https://objccn.io/).  
 
-> [中文介绍 chinese introduction](./README_CN.md)
+
+> [Chinese introduction](./README_CN.md)
 
 ## Preface
 
 ### 1. About me
 
-I am a full-time iOS developer, non-front-end developer. Due to contact with Weex development, thereby came into contact with the `Vue.js`.
+I'm a full-time iOS developer, not a front-end developer. Due to take part in  Weex development, I get to know the `Vue.js`.
 
 ### 2. Why write this project？
 
-1. At the beginning of this idea is from a netizen, he asked me in my blog, the Internet has not a better Weex demo? I said that [@EVAN YOU](http://evanyou.me/)’s Hacker News is the best. Later netizen say, the bloggers can write one? I did not answer at the time. In fact, this thing I have always remember in my heart.
+1. The motivation to write this project is from an e-pal, he left a message on my blog - was there a better Weex demo?  I recommended [@EVAN YOU](http://evanyou.me/)’s Hacker News. Later he supposed me to make one. I refused but kept it in mind.
 
-2. May 19 this year, GitHub use Electron rewrite the macOS and Windows client, coupled with the recent year development of cross-platform getting hotter, for some companies, the Web and app should be needed, app Also need iOS and Android two platforms, and even those who have to develop Weixin mini programs, desktop applications(despite a few), but with the same can be developed with the Electron. I also initiation of the idea of want to be eager.
+2. On May 19 this year, GitHub used Electron rewrite the macOS and Windows client, coupled with the recent year development of cross-platform getting hotter, to some companies, Web and app are all needed, app also need support iOS and Android two platforms, and more they develop Weixin mini programs. Although desktop applications are a few, Electron can develop them all. I'm going to have a try.
 
 3. As a result of the contact to the Vue.js, of course, do not want to stay in the primary, would like to advanced, [@EVAN YOU](http://evanyou.me/) especially given the recommendations, is more practice, more practice. In order to speed up the pace of progress, I own private to find the project for practicing.
 
-4. As for why to choose Objc China, the reason is actually very simple, because I am an iOS developer. In iOS developers, Objc is basically well known (do not know?), [喵神(@onevcat)](https://github.com/onevcat) is basically well known, I personally worship [喵神(@onevcat)](https://github.com/onevcat), so I chose Objc China to write.
+4. Why choose Objc China, the reason is typically simple - I am an iOS developer. To iOS developers, Objc is basically well known, [喵神(@onevcat)](https://github.com/onevcat) as the same. I admire him very much [喵神(@onevcat)](https://github.com/onevcat) and decide to write Objc china without hesitation.
 
 5. Because of love ... ...
 
-### 3. Why this development of cross-platform project without Weex？
+### 3. Why not use Weex to build this cross-platform project？
 
-After I finished the project, found that Vue code directly converted to Weex project, can not be achieved, a lot of error. And not all of them can be repaired immediately. I believe that I use the wrong way, not Weex's problem. By the way, Weex has released a new version, and then there is time to put Weeks version of the open source again.
+AWhen I completed the project and tried to convert it directly into Weex, I got a lot of error and most of them cannot be fixed immediately. I believe that I use the wrong way, not Weex's problem. By the way, Weex has released a new version, and then there is time to put Weeks version of the open source again.
 
 Well, into the topic, Let's introduce this project:
 
@@ -68,7 +69,7 @@ Well, into the topic, Let's introduce this project:
 
 ## 🔨 How to build 
 
-Due to Objc china website is directly response html data, so I want to simulate the network request to return data, should build a server, write API return data.
+As the Objc china website is directly response html data, to simulate the network request to return data, I build a backend and write API to return data.
 
 I use Express framework to build a server, set up in the 8081 port, and write routing, the request will go to 8080, open the server will automatically open the background.
 
@@ -76,7 +77,7 @@ My current development environment is node v6.11.0 , npm v3.10.10, Vue.js v2.8.2
 
 ``` bash
 
-# install dependencies 安装依赖
+# install dependencies 
 npm install
 
 # serve with hot reload at localhost:8080
@@ -85,7 +86,7 @@ npm run dev
 # serve with hot reload at localhost:8080
 npm run start
 
-# build for production with minification 打包
+# build for production with minification
 npm run build
 
 # build for production and view the bundle analyzer report
@@ -100,16 +101,16 @@ npm run e2e
 # run all tests
 npm test
 
-# 打包 Mac 应用
+# build Mac application
 npm run build:mac
 
-# 打包 Linux 应用
+# build Linxu application
 npm run build:linux
 
-# 打包 Win 应用
+# build Win application
 npm run build:win
 
-# 打包 Cordova 应用
+# build Cordova application
 npm run build:app
 
 ```
@@ -142,13 +143,13 @@ I put a Makefile in the project, you can do this according to this.
 > cordova run ios  
 > cordova run android
 
-Cordova only generated a shell of the app, inside the specific content still read the webpage, in the corresponding application which has a www inside the folder, this folder is to load the page inside. JavaScript package will generate the www folder, just replace the content which inside the Cordova corresponding platform’s www folder.
+Cordova only generated a shell of the app, all the content are still read from the web page. There is a folder called WWW in the corresponding application and used to load the page. JavaScript package will generate the www folder, just replace the content under this folder.
 
-Add a few words, app development to the present so mature era, if you develop a large app, with Cordova framework to do, do not use Objective-C or Swift to develop, do not do any optimization, the user experience is really not as good as the native fast. I have a special package to experience the Cordova app, did not do any optimization, packaged out on the experience, if it is critical of the user, on the current major app close to the perfect experience compared to really do not feel a little sense of satisfaction. If you really want to use front-end technology development app, to give 2 recommendations, if it is Cordova framework, we must try to optimize it, otherwise, the performance of app is not as good as the native performance. If you want to have a close to the native experience, then you can consider using React Native or Weex.
+In addition, if you develop a large app with Cordova framework and no any optimization, the user experience is really not as fast as the native. If you really want to use front-end technology to develop app, share you two recommendation: The one is trying to do optimization when use Cordova framework. The other is using React Native or Weex to get the experience close to native.
 
 ## 🚀 Cross-platform development
 
-JavaScript cross-platform development packaged into desktop applications, mainly use the Electron framework. Here you need to install the devdependencies inside "electron", "electron-builder", "electron-packager" these three framework. Make sure the other path configuration in the webpack have configured completed.
+Package this project into desktop application by JavaScript cross-platform development, mainly used the Electron framework. Here you need to install these three dependencies "electron", "electron-builder" and "electron-packager" in devDependencies. Configure other paths in the webpack.
 
 About Cordova installation, I make complaints a little network problems in china. If you are not over the wall in china, it is really painful. For example, Not over the wall and in a very poor network environment, installation of Cordova globally, lots of error, even for the complete installation of cnpm after the addition of the iOS platform will later report a problem of 'co' file can not find, I suspect cnpm could not install the command complete. Later, I go back home, over the wall and network environment is very good, All of a sudden the npm installation is complete. But there is a small episode: If Cordova iOS 4.4.0 template throw a error, suggest installation of several times, the reason is still for the network over the wall in china, no catch to it.
 
@@ -284,7 +285,7 @@ Vuex management status is very convenient. Login status saved in the state insid
 <img src='./image/Gifs/Web-login.gif'>
 </p>
 
-Once the user is not logged in, click on the purchase of e-books, to determine no user login will jump to the login page.
+If there is no login in information and user click the purchase button to buy an e-book, it will jump to the login page. 
 
 Another point is to say that because this is a SPA, so the routing inside are using Router-link to achieve, but did not use `<a>` tag jump, the effect is to jump and do not have to request data, jump quickly. This user experience is really cool.
 
@@ -300,7 +301,7 @@ When you are using the base option in HTML5 history mode, you don't need to incl
 <img src='./image/Gifs/Web-logout.gif'>
 </p>
 
-Log out of the page Similarly, once the user logs out, all show the user name will become a status to be logged in, the shopping cart on navigationBar also be disappeared. Manage status with Vuex, very Exciting.
+Similarly, once the user logs out, all places showing the user name will become a status to be logged in, the shopping cart on navigationBar also be disappeared. Manage status with Vuex, very exciting.
 
 <p align='center'>
 <img src='./image/Gifs/Web-email.gif'>
@@ -312,7 +313,7 @@ This is the email form validation, not too much technical content.
 <img src='./image/Gifs/Web-buy.gif'>
 </p>
 
-Here is the shopping cart page, where the use of the MVVM page binding ideas, the page on the four buttons, any button will immediately change the following total price. iOSer learn that Vue.js on the MVVM implementation of thinking worthy.
+Here is the shopping cart page and use the MVVM page binding ideas. There are four buttons on the page, clicking any one will immediately change the related total price. To iOSer, it's worthy to learn the implemention on the MVVM.
 
 Then this is the iPhone's Safari performance, the speed is well.
 
@@ -320,13 +321,13 @@ Then this is the iPhone's Safari performance, the speed is well.
 <img src='./image/Gifs/Web-iPhone.gif'>
 </p>
 
-In the cross-platform of these applications, the best experience, I think it is the application of Mac. Use satisfaction is very high.
+In the cross-platform of these applications, the best experience, I think, is the application of Mac. 
 
 <p align='center'>
 <img src='./image/Gifs/Web-Mac.gif'>
 </p>
 
-Finally Cordova framework build the mobile phone app, experience is unsatisfactory, in short, not optimized Cordova, for picky me, I was not satisfied. See this showcase below:
+Finally is the mobile phone app build by Cordova framework, I'm a little picky and not satificated with the unoptimized Cordova. See this showcase below:
 
 iPhone application
 
@@ -340,19 +341,21 @@ iPad application
 <img src='./image/Gifs/Web-iPad app.gif'>
 </p>
 
-## 🤔 After the completion of the project, I Fall into meditation
+## 🤔 Reflection
 
-First Amway [element-ui](https://github.com/ElemeFE/element) this project, use it to build the project, really very fast, a app can be efficient development. the development of Vue.js students must have heard of this library. Saving a lot of time can put more energy on business development.
+I strongly recommand you the [element-ui](https://github.com/ElemeFE/element) (Vue.js developers must have heard of this library). It is a really fast way to build projects by using it, an app can be efficient developed. Save time and put more energy on business development.
 
-Everyone is saying that now is a large front-end era, mobile development and front-end integration is inevitable. But the development of the two platforms is still a lot of different, I experienced a front-end development and iOS development, thinking a lot, front-end and iOS are a lot of places to learn from each other, both have their own advantages and disadvantages. Then I intend to write a series of articles on these aspects. The engineering, component, routing, MVVM of front-end, respectively, and iOS where the advantages and disadvantages of each other, what can learn each other. (Feeling to dig a big pit)
+Everyone says "Now is in the era of front-end, mobile development and front-end integration is inevitable". But there are many different aspectes of the development between front-end and iOS, I experience them all and think a lot. Font-end and iOS, they have lots to learn from each other in their own advantages and disadvantages, I intend to write an article series on those aspects - engineering, component, routing, MVVM. (Dig a big hole to jump)
 
 ## 📜 Feature
 
-If I have free time, I want to support Weex, take Vue.js into a complete Weex application, become native app, the performance will not be bad. So cross-platform development should be the whole platform.
+If I had more free time, I would like to support Weex. Taking Vue.js into a complete Weex application, to become a native app, the performance will not be bad. After then, it can cover the entire platform.
 
 ## ❗️ Errata
 
-If found in the project what is puzzled or found a bug, welcome to submit PR or issue, thank you very much, 🙏🙏🙏
+If you find a bug, welcome to sumbit your PR.  
+If you feel confused by something, welcome to submit your Issues.    
+I'm really appreciate it！🙏🙏🙏
 
 ## ♥️ Thanks
 
