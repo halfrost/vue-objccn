@@ -41,6 +41,11 @@ export default {
         bookCoverImage: require('../assets/advanced-swift-cover.png'),
         bookPrice: '69.00',
         bookDetailInfo: '/products/advanced-swift'
+      },
+      {
+        bookCoverImage: require('../assets/optimizing-collections-cover.png'),
+        bookPrice: '59.00',
+        bookDetailInfo: '/products/optimizing-collections'
       }
       ]
     };

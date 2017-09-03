@@ -2248,6 +2248,104 @@
         "question": "我还有其他问题。",
         "answer": "欢迎使用邮件<a href=\"mailto:mail@objccn.io\">联系我们</a>，我们随时准备好为您提供服务。"
       }]
+    },
+    "/products/optimizing-collections": {
+      "productTitle": "集合类型优化",
+      "productPrice": "¥59.00",
+      "authorList": [{
+        "authorLink": "https://twitter.com/lorentey",
+        "authorName": "Károly Lőrentey",
+        "authorAvatar": "http://localhost:8080/static/karolylorentey.jpg",
+        "authorDescribe": "<p>Károly Lőrentey 是一个自由职业者，他夜以继日地打磨着一些精美的 Swift 开源框架，这甚至让他无暇进行自己的 app 开发。 </p> "
+      }
+      ],
+      "translatorList": [{
+        "authorLink": "https://weibo.com/onevcat",
+        "authorName": "王巍",
+        "authorAvatar": "http://localhost:8080/static/weiwang.jpg",
+        "authorDescribe": "<p>ObjC 中国的创始人之一，objc.io 书籍翻译工作组织者。使用 onevcat 作为 ID 活跃在中国 iOS 开发界，Swift 使用者。</p> "
+      },
+      {
+        "authorLink": "http://ckitakishi.com/",
+        "authorName": "陈聿菡",
+        "authorAvatar": "http://localhost:8080/static/chenyuhan.jpg",
+        "authorDescribe": "<p>陈聿菡目前在日本从事 iOS 开发，在此之前是一名前端开发者，对图像处理感兴趣，正在为写出优美的代码而修炼。</p> "
+      }
+      ],
+      "productSubtitle": "使用 Swift 创造自定义的高性能集合类型",
+      "productText": "<p>在本书中，我们会介绍如何编写高性能的 Swift 集合类型代码。通观全书，我们创建了很多性能测试，并得到了一些让人惊喜的结果。我们将会探索如何用实现像是有序数组、二叉树、红黑树和 B 树这样的自定义数据结构，并让它们具有值语义和写时复制等特性。</p><p>即使你从未实现过自定义的集合类型，本书也将会带领您逐渐深入，并一探 Swift 代码性能的特质。</p>",
+      "contentInfo": [{
+        "title": "Swift 集合类型",
+        "subtitle": "研究 Swift 内建集合类型的表现"
+      },
+      {
+        "title": "性能",
+        "subtitle": "使用性能测试在实际用例中测试代码性能"
+      },
+      {
+        "title": "写时复制",
+        "subtitle": "使用写时复制实现高性能的值类型"
+      },
+      {
+        "title": "封装已有数据类型",
+        "subtitle": "将 NSOrderedSet 进行封装，使其具备值语义及写时复制性能"
+      },
+      {
+        "title": "红黑树",
+        "subtitle": "使用代数数据类型构建红黑搜索树"
+      },
+      {
+        "title": "B 树",
+        "subtitle": "实现许多文件系统和数据库背后所使用的数据结构"
+      }],
+      "problemList": [{
+        "question": "这本书是针对 Swift 3 的吗？",
+        "answer": "是的，我们针对最新版本的 Swift 编写和修订本书，并使用了全新的语言特性。"
+      },
+      {
+        "question": "我需要是一个数据结构达人，或者算法达人，才能阅读本书吗？",
+        "answer": "完全不需要，这本书就是引导你在实践中如何构建和使用高效的数据结构的。可能你需要知道一些基本的 Swift 语法才能很好地理解书中源码，但是并不需要你熟悉算法或者数据结构理论。"
+      },
+      {
+        "question": "这本书是 objc.io 的英文书，为什么会有中文版本？",
+        "answer": "我们是 <a href=\"/\">“ObjC 中国”</a> 组织，我们与 <a href=\"https://www.objc.io\">objc.io</a> 展开了深度合作，并获得了 objc.io 的授权，在中国拥有这系列图书的独占翻译和销售权。"
+      },
+      {
+        "question": "中文版和英文版有什么不同？会保持同步吗？",
+        "answer": "中文版和英文原版内容是一致的。书中偶有难以理解或国内鲜见的语汇，对此我们通过译注的形式进行了进一步的解释，以帮助读者理解。本书将继续更新并和英文版保持同步，但是在中英文版更新之间会有一定时间差。"
+      },
+      {
+        "question": "翻译书籍一般都很烂，这本书的质量可以信任吗？",
+        "answer": "“ObjC 中国”致力于最优秀的翻译作品，我们希望能将先进的 Swift 开发技术以更易懂的方式介绍给中文社区的开发者们。本书由国内有深厚英文背景的一线开发者花费大量时间和精力翻译，由 onevcat 逐句进行审核。我们保证，本书一定会是一本由开发者书写，经开发者翻译，最终提供给开发者阅读的优秀图书。"
+      },
+      {
+        "question": "这本书有纸质书吗？",
+        "answer": "暂时没有纸质书销售，不过我们会在时机合适的时候与出版社进行联系，为读者提供纸质版本的书籍。但是我们无法为纸质版本提供后续升级，请您谅解。"
+      },
+      {
+        "question": "我能在什么设备上阅读本书？",
+        "answer": "我们提供排版精美且 DRM free 的 PDF、mobi 和 epub 格式图书，这意味着您可以在任意带有 PDF 阅读器的桌面或移动平台、iBooks 以及 Kindle 等绝大部分常见阅读设备上进行阅读。"
+      },
+      {
+        "question": "付款方式是怎样，我能获得后续更新吗？",
+        "answer": "您可以通过 FastSpring 购买本书，如果您需要使用支付宝支付，请将区域选为中国 (China)，就可以看到 Alipay 的付款方式。在购买时请确认您填写了正确的邮箱地址，您将可以通过邮箱地址和账号在本站下载书籍的后续更新。"
+      },
+      {
+        "question": "为什么支付宝付款时价格和网站表示稍有不同？",
+        "answer": "我们的结算服务不能直接收取人民币，因此最终价格是经过订单生成时的汇率换算后的价格，可能会与原价有些许不同。"
+      },
+      {
+        "question": "我成功购买了，但是下载失败或者下载没有开始？",
+        "answer": "如果在订单完成后连接中断或者速度很慢的话，请检查或者更换您的网络设置后使用购买时的邮箱登录再进行下载。如果依然存在问题，请联系我们。"
+      },
+      {
+        "question": "除了本书，还有其他推荐的图书吗？",
+        "answer": "请您关注本站的<a href=\"/products/\">书籍页面</a>以获取更多信息。"
+      },
+      {
+        "question": "我还有其他问题。",
+        "answer": "欢迎使用邮件<a href=\"mailto:mail@objccn.io\">联系我们</a>，我们随时准备好为您提供服务。"
+      }]
     }
   }
 }
