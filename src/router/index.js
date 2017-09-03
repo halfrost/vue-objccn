@@ -52,6 +52,10 @@ export default new Router({
       component: ProductsDetailInfo
     },
     {
+      path: 'optimizing-collections',
+      component: ProductsDetailInfo
+    },
+    {
       path: 'swifter-tips/preview',
       component: ProductsPreview
     },
@@ -65,6 +69,10 @@ export default new Router({
     },
     {
       path: 'advanced-swift/preview',
+      component: ProductsPreview
+    },
+    {
+      path: 'optimizing-collections/preview',
       component: ProductsPreview
     }
     ]

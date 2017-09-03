@@ -96,6 +96,12 @@ export default {
           'productPrice': '¥69.00',
           'authorList': 'Chris Eidhof，Airspeed Velocity 著',
           'translatorList': '王巍 译'
+        },
+        '/products/optimizing-collections/preview': {
+          'productTitle': '集合类型优化',
+          'productPrice': '¥59.00',
+          'authorList': 'Károly Lőrentey 著',
+          'translatorList': '王巍 陈聿菡 译'
         }
       }
     };

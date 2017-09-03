@@ -36,7 +36,8 @@ export default {
         '/products/swifter-tips': require('../../assets/swifter-tips-header.png'),
         '/products/functional-swift': require('../../assets/functional-swift-header.png'),
         '/products/core-data': require('../../assets/core-data-header.png'),
-        '/products/advanced-swift': require('../../assets/advanced-swift-header.png')
+        '/products/advanced-swift': require('../../assets/advanced-swift-header.png'),
+        '/products/optimizing-collections': require('../../assets/optimizing-collections-header.png')
       }
     };
   },
