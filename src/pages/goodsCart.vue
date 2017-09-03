@@ -12,7 +12,7 @@
         <div class="core-window ">
           <div class="store-product-detail core-clearfix ">
             <div class="store-product-detail-image">
-              <img src="https://dxezhqhj7t42i.cloudfront.net/image/f8efab08-3db4-4707-bf47-efce1f744559 " height="394 " width="300 " alt=" " class="img-border "></img>
+              <img src="https://dxezhqhj7t42i.cloudfront.net/image/f8efab08-3db4-4707-bf47-efce1f744559" height="394 " width="300 " alt=" " class="img-border "></img>
             </div>
             <h2 class="store-product-detail-title">Swifter - Swift 必备 tips (第三版)</h2>
             <h3 class="store-product-detail-pricing "><span  class='store-product-price'><span  class='store-value-money store-value-money-single'>&#65509;49.00</span></span></h3>
@@ -30,7 +30,7 @@
               <div class="store-product-list store-product-list-offer ">
                 <div class="store-product-detail store-product-list-offer-item ">
                   <div class="store-product-detail-image">
-                    <img src="https://dxezhqhj7t42i.cloudfront.net/image/266b3bbf-36e0-4cd2-807e-aeaf7bcf414f " height="400 " width="300 " alt=" " class="img-border list-item-image"></img>
+                    <img src="https://dxezhqhj7t42i.cloudfront.net/image/266b3bbf-36e0-4cd2-807e-aeaf7bcf414f" height="400 " width="300 " alt=" " class="img-border list-item-image"></img>
                   </div>
                   <h2 class="store-product-detail-title ">函数式 Swift</h2>
                   <h3 class="store-product-detail-pricing "><span  class='store-product-price'><span  class='store-value-money store-value-money-single'>&#65509;69.00</span></span></h3>
@@ -44,11 +44,12 @@
                     </div>
                   </div>
                   <el-input-number v-model="book2" :min=0 style="bottom: 20px; right: 10px; position: absolute;"> </el-input-number>
-
                 </div>
+
+
                 <div class="store-product-detail store-product-list-offer-item ">
                   <div class="store-product-detail-image ">
-                    <img src="https://dxezhqhj7t42i.cloudfront.net/image/a165f416-1d8e-4ff4-a067-f00751aaac22 " height="400 " width="300 " alt=" " class="img-border list-item-image"></img>
+                    <img src="https://dxezhqhj7t42i.cloudfront.net/image/a165f416-1d8e-4ff4-a067-f00751aaac22" height="400 " width="300 " alt=" " class="img-border list-item-image"></img>
                   </div>
                   <h2 class="store-product-detail-title ">Swift 进阶</h2>
                   <h3 class="store-product-detail-pricing "><span  class='store-product-price'><span  class='store-value-money store-value-money-single'>&#65509;69.00</span></span></h3>
@@ -63,8 +64,8 @@
                   <el-input-number v-model="book3" :min=0 style="bottom: 20px; right: 10px; position: absolute;"> </el-input-number>
                 </div>
 
-                <div class="store-product-detail store-product-list-offer-item-last ">
-                  <div class="store-product-detail-image ">
+                <div class="store-product-detail store-product-list-offer-item ">
+                  <div class="store-product-detail-image">
                     <img src="https://dxezhqhj7t42i.cloudfront.net/image/7a3e21cc-96fd-41ec-b226-bc00be79614d" height="400 " width="300 " alt=" " class="img-border list-item-image"></img>
                   </div>
                   <h2 class="store-product-detail-title ">Core Data</h2>
@@ -77,7 +78,24 @@
                       <p>本书所有的代码都使用 Swift 书写， 我们也展示了如何将 Swift 的语言特性融入到 Core Data 中，并写出优雅和安全的代码。我们希望您在阅读本书的时候有一定的 Swift 和 iOS 开发基础，不过相信不论是新人还是富有经验的开发者，都能从本书中找到实用的信息和设计模式。</p>
                     </div>
                   </div>
-                  <el-input-number v-model="book4" :min=0 style="bottom: 0px; right: 10px; position: absolute;"> </el-input-number>
+                  <el-input-number v-model="book4" :min=0 style="bottom: 20px; right: 10px; position: absolute;"> </el-input-number>
+                </div>
+
+
+
+                <div class="store-product-detail store-product-list-offer-item-last ">
+                  <div class="store-product-detail-image ">
+                    <img src="http://localhost:8080/static/optimizing-collections-cover.png" height="400 " width="300 " alt=" " class="img-border list-item-image"></img>
+                  </div>
+                  <h2 class="store-product-detail-title ">集合类型优化</h2>
+                  <h3 class="store-product-detail-pricing "><span  class='store-product-price'><span  class='store-value-money store-value-money-single'>&#65509;59.00</span></span></h3>
+                  <div class="store-product-list-item-description ">
+                    <div class="store-product-list-item-description-short ">
+                      <h3>强烈建议您<b>不要</b>使用 QQ 或 Foxmail 的邮箱，否则可能无法收到我们的登录邮件。</h3>
+                      <p>在本书中，我们会介绍如何编写高性能的 Swift 集合类型代码。通观全书，我们创建了很多性能测试，并得到了一些让人惊喜的结果。我们将会探索如何用实现像是有序数组、二叉树、红黑树和 B 树这样的自定义数据结构，并让它们具有值语义和写时复制等特性。</p><p>即使你从未实现过自定义的集合类型，本书也将会带领您逐渐深入，并一探 Swift 代码性能的特质。</p>
+                    </div>
+                  </div>
+                  <el-input-number v-model="book5" :min=0 style="bottom: 0px; right: 10px; position: absolute;"> </el-input-number>
                 </div>
               </div>
             </div>
@@ -100,6 +118,7 @@ export default {
       book2: 0,
       book3: 0,
       book4: 0,
+      book5: 0,
       disable: true
     };
   },
@@ -124,7 +143,7 @@ export default {
   },
   computed: {
     getTotalPrice() {
-      return this.book1 * 49 + this.book2 * 69 + this.book3 * 69 + this.book4 * 69;
+      return this.book1 * 49 + this.book2 * 69 + this.book3 * 69 + this.book4 * 69 + this.book5 * 59;
     }
   }
 };
