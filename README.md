@@ -185,6 +185,14 @@ First show the Web side:
 <img src='./image/Screenshots/Web/Web 5.png'>
 </p>
 
+<p align='center'>
+<img src='./image/Screenshots/Web/Web 6.png'>
+</p>
+
+<p align='center'>
+<img src='./image/Screenshots/Web/Web 7.png'>
+</p>
+
 And then show the effect in the mobile browser:
 
 Android platform
@@ -243,6 +251,14 @@ Then look at the performance in Mac side:
 
 <p align='center'>
 <img src='./image/Screenshots/Mac/Mac 4.png'>
+</p>
+
+<p align='center'>
+<img src='./image/Screenshots/Mac/Mac 5.png'>
+</p>
+
+<p align='center'>
+<img src='./image/Screenshots/Mac/Mac 6.png'>
 </p>
 
 Finally look at Cordova's effect:
