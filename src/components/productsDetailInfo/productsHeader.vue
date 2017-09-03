@@ -7,12 +7,10 @@
     </div>
     <p class="product-title-author">
       <ul class="author-list">
-        <li v-for="item in authorList"><a rel="author" :href=item.authorLink>{{item.authorName}}</a>&nbsp;</li>
-        著
+        <li v-for="item in authorList"><a rel="author" :href=item.authorLink>{{item.authorName}}</a>&nbsp;</li>著
       </ul>
       <ul class="author-list" v-if="translatorList.length > 0">
-        <li v-for="item in translatorList"><a rel="author" :href=item.authorLink>{{item.authorName}}</a>&nbsp;</li>
-        译
+        <li v-for="item in translatorList"><a rel="author" :href=item.authorLink>{{item.authorName}}</a>&nbsp;</li>译
       </ul>
     </p>
   </div>
