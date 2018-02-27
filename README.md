@@ -19,7 +19,7 @@ Use Vue.js to develop a cross-platform full stack application of [Objc china](ht
 - [x] ✅ Mobile App which uses the Cordova framework, supports iOS、Android、Windows Phone and BlackBerry platforms
 - [ ] ❌ Native Mobile App, which can use Weex framework to support both iOS and Android
 
-> Note: This project is just a bit of fun and purely for learning purposes, please support [喵神(@onevcat)](https://github.com/onevcat) and [Objc china](https://objccn.io/).  
+> Note: This project is just a bit of fun and purely for learning purpose, please support [喵神(@onevcat)](https://github.com/onevcat) and [Objc china](https://objccn.io/).  
 
 
 > [Chinese introduction](./README_CN.md)
@@ -28,7 +28,7 @@ Use Vue.js to develop a cross-platform full stack application of [Objc china](ht
 
 ### 1. About me
 
-I'm a full-time iOS developer, not a front-end developer. Due to take part in  Weex development, I get to know the `Vue.js`.
+I'm a full-time iOS developer, not a front-end developer. Due to take part in Weex development, I get to know the `Vue.js`.
 
 ### 2. Why write this project？
 
@@ -44,7 +44,7 @@ I'm a full-time iOS developer, not a front-end developer. Due to take part in  W
 
 ### 3. Why not use Weex to build this cross-platform project？
 
-AWhen I completed the project and tried to convert it directly into Weex, I got a lot of error and most of them cannot be fixed immediately. I believe that I use the wrong way, not Weex's problem. By the way, Weex has released a new version, and then there is time to put Weeks version of the open source again.
+When I completed the project and tried to convert it directly into Weex, I got a lot of errors and most of them cannot be fixed immediately. I believe that I use the wrong way, not Weex's problem. By the way, Weex has released a new version, and then there is time to put Weex version of the open source again.
 
 Well, into the topic, Let's introduce this project:
 
