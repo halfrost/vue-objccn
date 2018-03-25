@@ -281,13 +281,13 @@ iPad 的 Web
 用 Vue.js 搭建一个 Web 页面很快。
 
 <p align='center'>
-<img src='https://ob6mci30g.qnssl.com/Blog/ArticleImage/49_22.gif'>
+<img src='./image/Gifs/Web.gif'>
 </p>
 
 看看 Vuex 管理状态的方便。登录状态保存在 state 里面，全局都会获取到。
 
 <p align='center'>
-<img src='https://ob6mci30g.qnssl.com/Blog/ArticleImage/49_23.gif'>
+<img src='./image/Gifs/Web-login.gif'>
 </p>
 
 一旦用户没有登录，点击购买电子书的时候，判断没有用户登录都会跳转到登录页面。
@@ -303,19 +303,19 @@ iPad 的 Web
 当你在 HTML5 history 模式下使用 base 选项之后，所有的 to 属性都不需要写（基路径）了。
 
 <p align='center'>
-<img src='https://ob6mci30g.qnssl.com/Blog/ArticleImage/49_24.gif'>
+<img src='./image/Gifs/Web-logout.gif'>
 </p>
 
 登出页面同理，一旦用户登出，所有显示用户名的地方都会变成登录，navigationBar 上的购物车也一并消失。用 Vuex 管理状态，挺好的。
 
 <p align='center'>
-<img src='https://ob6mci30g.qnssl.com/Blog/ArticleImage/49_25.gif'>
+<img src='./image/Gifs/Web-email.gif'>
 </p>
 
 这就是 email 的表单验证了，没有太多的技术含量。
 
 <p align='center'>
-<img src='https://ob6mci30g.qnssl.com/Blog/ArticleImage/49_26.gif'>
+<img src='./image/Gifs/Web-buy.gif'>
 </p>
 
 这里是购物车页面，这里用到了 MVVM 页面的绑定的思想，页面上 4 个按钮，点任意一个按钮都会立即改变下面的总价。关于 Vue.js 的 MVVM 实现思想值得 iOSer 们学习。
@@ -323,13 +323,13 @@ iPad 的 Web
 接下来这个是 iPhone 的 Safari 上的表现，速度还可以。
 
 <p align='center'>
-<img src='https://ob6mci30g.qnssl.com/Blog/ArticleImage/49_27.gif'>
+<img src='./image/Gifs/Web-iPhone.gif'>
 </p>
 
 在跨平台的这几个应用中，体验最好的，我觉得还是 Mac 的应用。使用起来满意度非常高。
 
 <p align='center'>
-<img src='https://ob6mci30g.qnssl.com/Blog/ArticleImage/49_28.gif'>
+<img src='./image/Gifs/Web-Mac.gif'>
 </p>
 
 最后就是 Cordova 框架搭建的 手机 app，体验度不高，具体如何，看图吧，总之不优化的 Cordova ，对于挑剔的我来说，我是不满意的。
@@ -337,13 +337,13 @@ iPad 的 Web
 iPhone 上的应用
 
 <p align='center'>
-<img src='https://ob6mci30g.qnssl.com/Blog/ArticleImage/49_29.gif'>
+<img src='./image/Gifs/Web-iPone app.gif'>
 </p>
 
 iPad 上的应用
 
 <p align='center'>
-<img src='https://ob6mci30g.qnssl.com/Blog/ArticleImage/49_30.gif'>
+<img src='./image/Gifs/Web-iPad app.gif'>
 </p>
 
 ## 🤔 项目完成之后的感想
