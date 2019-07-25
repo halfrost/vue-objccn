@@ -16,7 +16,7 @@ Use Vue.js to develop a cross-platform full stack application of [Objc china](ht
     
 - [x] ✅ Desktop application available for three platforms, Mac, Linux and Windows 
 - [x] ✅ Web application supports desktop browsers and mobile browsers
-- [x] ✅ Mobile App which uses the Cordova framework, supports iOS、Android、Windows Phone and BlackBerry platforms
+- [x] ✅ Mobile App which uses the Cordova framework, supports iOS,Androi,Windows Phone and BlackBerry platforms
 - [ ] ❌ Native Mobile App, which can use Weex framework to support both iOS and Android
 
 > Note: This project is just a bit of fun and purely for learning purpose, please support [喵神(@onevcat)](https://github.com/onevcat) and [Objc china](https://objccn.io/).  
@@ -71,9 +71,9 @@ Well, into the topic, Let's introduce this project:
 
 As the Objc china website is directly response html data, to simulate the network request to return data, I build a backend and write API to return data.
 
-I use Express framework to build a server, set up in the 8081 port, and write routing, the request will go to 8080, open the server will automatically open the background.
+I use Express framework to build a server, set up in the `8081` port, and write routing, the request will go to `8080`, open the server will automatically open the background.
 
-My current development environment is node v6.11.0 , npm v3.10.10, Vue.js v2.8.2.
+My current development environment is node v6.11.0, npm v3.10.10, Vue.js v2.8.2.
 
 ``` bash
 
@@ -117,9 +117,9 @@ npm run build:app
 
 Here to talk about Cordova's packaging alone, it is slightly more than the desktop side of the special point.
 
-First, make the `src/main.js` file on the three lines on the Coredova note open, Coredova library initialization needs to be included in the generation of Vue instance outside. After opening the comment, proceed to the next step.
+First, make the `src/main.js` file on the three lines on the Cordova note open, Cordova library initialization needs to be included in the generation of Vue instance outside. After opening the comment, proceed to the next step.
 
-I put a Makefile in the project, you can do this according to this.
+I put a `Makefile` in the project, you can do this according to this.
 
 1. First install the cordova command globally
 
@@ -143,7 +143,7 @@ I put a Makefile in the project, you can do this according to this.
 > cordova run ios  
 > cordova run android
 
-Cordova only generated a shell of the app, all the content are still read from the web page. There is a folder called WWW in the corresponding application and used to load the page. JavaScript package will generate the www folder, just replace the content under this folder.
+Cordova only generated a shell of the app, all the content are still read from the web page. There is a folder called `WWW` in the corresponding application and used to load the page. JavaScript package will generate the `www` folder, just replace the content under this folder.
 
 In addition, if you develop a large app with Cordova framework and no any optimization, the user experience is really not as fast as the native. If you really want to use front-end technology to develop app, share you two recommendation: The one is trying to do optimization when use Cordova framework. The other is using React Native or Weex to get the experience close to native.
 
@@ -151,13 +151,13 @@ In addition, if you develop a large app with Cordova framework and no any optimi
 
 Package this project into desktop application by JavaScript cross-platform development, mainly used the Electron framework. Here you need to install these three dependencies "electron", "electron-builder" and "electron-packager" in devDependencies. Configure other paths in the webpack.
 
-About Cordova installation, I make complaints a little network problems in china. If you are not over the wall in china, it is really painful. For example, Not over the wall and in a very poor network environment, installation of Cordova globally, lots of error, even for the complete installation of cnpm after the addition of the iOS platform will later report a problem of 'co' file can not find, I suspect cnpm could not install the command complete. Later, I go back home, over the wall and network environment is very good, All of a sudden the npm installation is complete. But there is a small episode: If Cordova iOS 4.4.0 template throw a error, suggest installation of several times, the reason is still for the network over the wall in china, no catch to it.
+About Cordova installation, I make complaints a little network problems in China. If you are not over the wall in China, it is really painful. For example, not over the wall and in a very poor network environment, installation of Cordova globally, lots of error, even for the complete installation of `cnpm` after the addition of the iOS platform will later report a problem of 'co' file can not find, I suspect `cnpm` could not install the command complete. Later, I go back home, over the wall and network environment is very good, All of a sudden the `npm` installation is complete. But there is a small episode: If Cordova iOS 4.4.0 template throw a error, suggest installation of several times, the reason is still for the network over the wall in China, no catch to it.
 
 There may be encountered the following error:
 
 > "Error: Cannot find module 'config-chain'" when running 'ionic start'
 
-The solution of this error is trying again the original order with the sudo command. This error could be solved
+The solution of this error is trying again the original order with the `sudo` command. This error could be solved
 
 The final package will be done in the dist folder.
 
