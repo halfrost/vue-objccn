@@ -16,7 +16,7 @@ Use Vue.js to develop a cross-platform full stack application of [Objc china](ht
     
 - [x] ✅ Desktop application available for three platforms, Mac, Linux and Windows 
 - [x] ✅ Web application supports desktop browsers and mobile browsers
-- [x] ✅ Mobile App which uses the Cordova framework, supports iOS,Androi,Windows Phone and BlackBerry platforms
+- [x] ✅ Mobile App which uses the Cordova framework, supports iOS, Android, Windows Phone and BlackBerry platforms
 - [ ] ❌ Native Mobile App, which can use Weex framework to support both iOS and Android
 
 > Note: This project is just a bit of fun and purely for learning purpose, please support [喵神(@onevcat)](https://github.com/onevcat) and [Objc china](https://objccn.io/).  
