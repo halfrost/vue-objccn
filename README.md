@@ -10,6 +10,7 @@
 <a href="https://github.com/halfrost/vue-objccn/pulls"><img src="https://img.shields.io/badge/PR-Welcome-brightgreen.svg"></a>
 <a href="http://weibo.com/halfrost"><img src="https://img.shields.io/badge/weibo-@halfrost-red.svg?style=flat"></a>
 <img src="https://img.shields.io/badge/made%20with-%3C3-red.svg">
+<img src="https://visitor-badge.laobi.icu/badge?page_id=halfrost.vue-objccn">
 </p>
 
 Use Vue.js to develop a cross-platform full stack application of [Objc china](https://objccn.io/).
