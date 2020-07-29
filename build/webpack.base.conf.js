@@ -44,7 +44,7 @@ module.exports = {
       {
         test: /\.js$/,
         loader: 'babel-loader',
-        include: [resolve('src'), resolve('test')]
+        include: [resolve('src'), resolve('test'), resolve('node_modules/markdown-it-highlightjs/index.js'),]
       },
       {
         test: /\.(png|jpe?g|gif|svg)(\?.*)?$/,
