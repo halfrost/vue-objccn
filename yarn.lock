@@ -48,8 +48,8 @@
     defer-to-connect "^1.0.1"
 
 "@types/node@^12.0.12":
-  version "12.12.48"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-12.12.48.tgz#4135f064eeed9fcfb4756deea5ba2caa11603391"
+  version "12.12.53"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-12.12.53.tgz#be0d375933c3d15ef2380dafb3b0350ea7021129"
 
 abbrev@1, abbrev@1.0.x:
   version "1.0.9"
@@ -4314,8 +4314,8 @@ lodash@^3.8.0:
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-3.10.1.tgz#5bf45e8e49ba4189e17d482789dfd15bd140b7b6"
 
 lodash@^4.17.10:
-  version "4.17.15"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
+  version "4.17.19"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.19.tgz#e48ddedbe30b3321783c5b4301fbd353bc1e4a4b"
 
 log-symbols@^1.0.2:
   version "1.0.2"
