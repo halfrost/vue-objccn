@@ -24,6 +24,8 @@
 
 > [英文介绍 English Introduction](./README.md)
 
+可运行且已经完整打包好的软件下载链接在 [这里](https://github.com/halfrost/vue-objccn/releases).
+
 ## 前言
 
 ### 一. 关于我

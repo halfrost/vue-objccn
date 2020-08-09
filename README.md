@@ -25,6 +25,9 @@ Use Vue.js to develop a cross-platform full stack application of [Objc china](ht
 
 > [Chinese introduction](./README_CN.md)
 
+The download link for the runnable and complete packaged software is [here](https://github.com/halfrost/vue-objccn/releases).
+
+
 ## Preface
 
 ### 1. About me
