@@ -367,6 +367,9 @@ iPad 上的应用
 
 如果喜欢这个项目，欢迎 Star！
 
+[![Stargazers over time](https://starchart.cc/halfrost/vue-objccn.svg)](https://starchart.cc/halfrost/vue-objccn)
+
+
 ## 🌏 LICENSE
 
 ![](https://www.gnu.org/graphics/gplv3-127x51.png)
