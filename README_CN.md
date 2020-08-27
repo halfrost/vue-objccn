@@ -2,15 +2,26 @@
 <img src='./image/vue-objccn_banner_.png'>
 </p>
 
-<p align="center">
+<p align='center'>
+<img alt="GitHub All Releases" src="https://img.shields.io/github/downloads/halfrost/vue-objccn/total?label=APP%20downloads&color=brightgreen">
+<img src="https://img.shields.io/badge/build-passing-success">
 <img src="https://img.shields.io/badge/Language-%20JavaScript%20-f9e229.svg">
-<a href="https://github.com/vuejs/vue"><img src="https://img.shields.io/badge/Framework-Vue.js%20-0eb984.svg"></a>
-<a href="https://github.com/halfrost/vue-objccn/blob/master/LICENSE"><img src="https://img.shields.io/badge/license-GPL-blue.svg"></a>
-<img src="https://img.shields.io/badge/platform-%20iOS | Mac | Web%20-ff69b4.svg">
-<a href="https://github.com/halfrost/vue-objccn/pulls"><img src="https://img.shields.io/badge/PR-Welcome-brightgreen.svg"></a>
-<a href="http://weibo.com/halfrost"><img src="https://img.shields.io/badge/weibo-@halfrost-red.svg?style=flat"></a>
-<img src="https://img.shields.io/badge/made%20with-%3C3-red.svg">
+<a href="https://github.com/vuejs/vue"><img src="https://img.shields.io/badge/Framework-Vue.js | Electron%20-0eb984.svg"></a>
+<img src="https://img.shields.io/badge/node->=v6.11.0-b561fe.svg">
+<img src="https://img.shields.io/badge/npm->=v3.10.10-000000.svg">
+<img src="https://img.shields.io/badge/electron->=1.8.8-orange.svg">
+<img src="https://img.shields.io/badge/platform-%20iOS | Android | Mac | Web%20-ff69b4.svg">
 <img src="https://visitor-badge.laobi.icu/badge?page_id=halfrost.vue-objccn">
+</p>
+
+<p align="center">
+<a href="https://github.com/halfrost/vue-objccn/blob/master/LICENSE"><img src="https://img.shields.io/badge/License-GPL-blue.svg"></a>
+<a href="https://halfrost.com"><img src="https://img.shields.io/badge/Blog-Halfrost--Field-80d4f9.svg?style=flat"></a>
+<a href="http://weibo.com/halfrost"><img src="https://img.shields.io/badge/weibo-@halfrost-f974ce.svg?style=flat&colorA=f4292e"></a>
+<a href="https://twitter.com/halffrost"><img src="https://img.shields.io/badge/twitter-@halffrost-F8E81C.svg?style=flat&colorA=009df2"></a>
+<a href="https://www.zhihu.com/people/halfrost/activities"><img src="https://img.shields.io/badge/%E7%9F%A5%E4%B9%8E-@halfrost-fd6f32.svg?style=flat&colorA=0083ea"></a>
+<img src="https://img.shields.io/badge/made%20with-=1-red.svg">
+<a href="https://github.com/halfrost/vue-objccn/pulls"><img src="https://img.shields.io/badge/PR-Welcome-brightgreen.svg"></a>
 </p>
 
 利用 Vue.js 实现 [Objc中国](https://objccn.io/) 的跨平台全栈应用
