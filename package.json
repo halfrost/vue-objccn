@@ -49,7 +49,7 @@
     "cross-env": "^4.0.0",
     "cross-spawn": "^5.0.1",
     "css-loader": "^0.28.0",
-    "electron": "^1.6.11",
+    "electron": "^7.2.4",
     "electron-builder": "^19.4.2",
     "electron-packager": "^8.7.1",
     "eslint": "^3.19.0",
